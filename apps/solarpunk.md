@@ -1,0 +1,471 @@
+# Une discussion anodine à propos du solarpunk
+
+## Dans les grandes lignes, c'est quoi le solarpunk ?
+
+J: Comme toutes les bonnes surprises, on tombe souvent dessus par hasard. Le solarpunk n'aura pas fait exception. Alors que je m'égarais une fois de plus sur YouTube, [je suis tombé sur une courte vidéo d'animation qui m'a interpellé](https://www.youtube.com/watch?v=UqJJktxCY9U). On y voyait une société futuriste, certes idéaliste mais loin des visions dystopiques habituelles, où la nature et une technologie avancée semblaient cohabiter en parfaite harmonie. En contraste avec le discours d'effondrement ambiant ou l'éco-fascisme qui rejette souvent la technologie plutôt que de la faire évoluer vers des usages intelligents, c'était particulièrement rafraichissant. On pouvait facilement y voir low-tech et deep-tech coexister, l'une n'ayant pas sacrifié l'autre. Cela ne m'avait pas laissé de marbre et j'avais bien compris que ma nuit allait être encore une fois plus courte que prévue.
+
+P: Mais du coup c'est quoi le solarpunk ?
+
+J: À la base de la base, c'est un mouvement littéraire. Un genre de science-fiction qui imagine un futur qui s'appuient sur les technologies vertes, conduisant à des sociétés qui vivent en paix et qui favorisent le respect de la nature, la durabilité mais qui sont surtout très centrée sur l'humain, c'est-à-dire le vivre ensemble. L'énergie solaire y joue d'ailleurs une place centrale d'où le nom "Solarpunk". C'est d'aileurs dans les années 2010 que le mouvement a pris de l'ampleur, pile au moment où le prix du solaire a chuté de manière assez significative rendant cette source d'énergie de plus en plus compétitive quand on la compare aux combustibles fossiles traditionnels tels que le charbon et le pétrole.
+
+P: Si je comprends bien, c'est donc un mouvement qui imagine à quoi ressemblerait un monde durable et comment y arriver ? Et c'est pas un peu utopique tout ça ?
+
+J: Oui et c'est bien ça qui m'a plu. Malgré la complexité du monde et les défis à relever, dans le solarpunk, il y a cet optimisme et cet espoir qu'on peut y arriver. C'est une réaction optimiste face aux visions dystopiques courantes du futur qui angoisse et paralyse pour laisser place à l'optimisme qui motive et encourage à être dans l'action. Et c’est pour ça que le solarpunk est intéressant car il change le narratif. Mais il y a un surtout un autre truc qui m'a bien plu chez les solarpunks, c'est qu'ils croient dans l'intelligence collective. C'est quelque chose qu'ils cultivent et qui est au coeur de leur idéologie. À la fois par la collaboration mais aussi par la diversité des idées et la recherche incessante de la pluridisciplinarité. On a donc affaire à des sociétés qui contraste avec le survivalisme individuel et qui sont donc très inclusives, ouverte d'esprit et dans une démarche de co-création. Il y a aussi un côté très hacker et "do it yourself" chez les solarpunks qui m'a beaucoup plus mais on aura le temps d'y revenir.
+
+P: Et c'est quoi la différence avec les autres mouvements punks ? J'ai par exemple entendu parler du cyberpunk, ça n'a rien à voir ?
+
+J: Il existe une myriade d'autres sous-genres qui se termine par "punk", chacun ayant sa propre esthétique et ses thèmes bien à lui. Tout comme le solarpunk, ces genres sont souvent utilisé pour explorer des questions sociétales à travers le prisme d'un monde alternatif futuriste. Pour ne prendre que les plus connus car cela nécessiterait un article complet, tu as aussi le cyberpunk, le steampunk et le dieselpunk. Le cyberpunk se concentre sur un futur dystopique où les technologies avancées comme la cybernétique et l'intelligence artificielle coexistent avec un déclin social et inégalitaire. Les thèmes incluent l'autoritarisme, la surveillance, les mégacorporations, et une frontière entre l'homme et la machine qui s'estompe progressivement. Si tu as joué au jeux-vidéo Cyberpunk 2077 ou visionné Blade Runner, tu vois très bien de quoi je parle. De son côté, le steampunk est situé principalement à l'époque victorienne (1840-1900) et met en avant une technologie alimentée par la vapeur. Il combine l'esthétique historique du 19ème siècle avec des éléments futuristes et souvent fantaisistes. Enfin, le dieselpunk est inspiré par les années 1920 à 1950 et mélange la technologie basée sur le diesel. Il peut évoquer des sentiments d'optimisme des années 1920 ou le désespoir de l'après-guerre. Si tu as vu film Suckerpunk (et les scènes de combats qui présentent des zeppelins) ou bien le film Mad Max Fury Road (bien qu'il se passe dans un futur post-apocalyptique), tu as une idée de ce à quoi ressemble. D'ailleurs, en parlant d'apocalypse, l'industrie du cinéma et du jeux-vidéo sont très fortes pour prendre des tableaux devastateur et des visions apocalyptiques qui laissent peu de place à l'optimisme. Cela fait sens car notre esprit est davantage attiré par les mauvaises nouvelles. Mais c'est un peu dommage car cela ne fait que renforcer le sentiment d'impuissance et de fatalité. Les thèmes de climate fiction qui imaginent des histoires qui se déroulent pendant ou après des effondrements écologiques planétaires sont récurrents et laissent généralement les survivants dans un monde peu désirable. C'est tout le contraire du solarpunk et c'est ce qui m'a vraiment intéressé.
+
+P: On peut donc dire que chaque énergie a son mouvement punk ?
+
+J: C'est une manière de voir les choses mais ce n'est pas systématique. Par exemple, tu as le biopunk se concentre sur la biotechnologie et les modifications génétiques. Ce que tu dois retenir, c'est que la grosse majorité des mouvements punk sont une exploration du futur en mettant en scène des réalités alternatives. Ils cherchent à nous faire réfléchir sur des questions sociétales et éthiques et sur la direction que nous voulons prendre en tant que société. Le solarpunk ne fait pas exception à la règle et c'est en cela qu'il est intéressant.
+
+## Le solarpunk est une idéologie minimaliste, qui mutualise et qui s'oppose à la vision consumériste du bonheur
+
+P: Et d'ailleurs, pourquoi on dit que c'est des punks ?
+
+J: Car c'est avant tout une contre culture, c'est-à-dire qu'elle s'oppose et se rebelle face à la culture dominante actuelle d'où le terme "punk". Comme tu l'as problement deviné, dans le cas du solarpunk, il y a une forte opposition la société de consommation irraisonnée et excessive qui ne mène qu'à l'épuisement de la planète et de nous-mêmes.
+
+P: Comment ça "de nous-mêmes" ?
+
+J: C'est une autre aspect qui m'a bien plus dans le solarpunk. Il nécessite qu'on s'attarde sur la notion de bonheur. La quête du bonheur est quelque chose de très subjectif et il y a autant de définitions que d'être humain mais laisse moi te donner mon opinion sur le sujet. Le bonheur, c'est avant tout les gens et la construction de projets en commun aussi ambitieux ou insignifiant soient-ils. C'est d'ailleurs la morale d'un de mes films préférés, Into The Wild. Ce que je veux dire par là, c'est qu'il n'y a pas de bonheur sans les autres et qu'il n'existe que s'il est partagé. Tu peux avoir la plus grande maison au coeur d'une île paradisiaque, voyager dans tous les pays du monde, si tu n'es pas en compagnie des personnes que tu apprécies, il y aura forcément un moment où tu vas regarder le plafond et te demander ce que tu fais là. Et ça, c'est juste incompatible avec l'état d'esprit des solarpunks puisqu'ils mettent les relations humaines au centre de tout. Si tu as regardé la vidéo que je t'ai montré au début de notre échange, tu y vois des gens qui travaillent vivent dans une communauté qui se connait et qui partagent d'ailleurs à la fin un repas ensemble. Les solarpunks ne se contentent pas de rêver d'un monde meilleur, ils cherchent à le construire ensemble. Les solarpunks ne sont pas plus heureux parce qu'ils ont des éoliennes ou des panneaux solaires au dessus de leur tête mais parce qu'ils cultivent des relations humaines fortes et qu'ils sont souvent dans l'action collective. Qu'ils atteignent ou non leur objectif, c'est l'action en vue de petites victoires communes et l'énergie créative qui découle du travail d'équipe qui améliore inévitablement leur bonheur individuel. Et entre nous, quelques recherches sur le bonheur te méneront à des études qui t'expliqueront que les gens qui vivent le plus longtemps, sont souvent ceux qui ont les relations humaines les plus saines.
+
+P: Mais du coup, le solarpunk c'est plutôt rural ou urbain ? Parce que avec les images que j'ai en tête, je vois des gens qui vivent dans des maisons en bois, qui cultivent leur propre nourriture, qui se déplacent à vélo, etc. Ça fait un peu hippie utopiste, non ? Surtout quand on sait que la majorité d'entre nous aime profiter de l'accessibilité des biens et des services que l'on peut trouver dans les grandes villes.
+
+J: Absolument et je pense que c'une erreur qu'on fait tous quand on tente d'analyzer ce style de vie. On le disqualifie parce qu'il ne correspond pas à tout le monde. Mais c'est bien, cela le sujet, le solarpunk n'est pas pour tout le monde. C'est un état d'esprit. Par exemple, un aspect que l'on retrouve beaucoup chez les solarpunks c'est le minimalisme. Chaque objet que tu possèdes doit avoir son utilité ou une valeur sentimentale. L'obsolescence programmée y est fortement dénoncé et lorsque quelque quelque chose est cassée, on tente de le recycler ou de le réparer avant de se précipiter en acheter un nouveau. Le minimalisme est une philosophie de vie qui encourage à se concentrer sur l'essentiel. Il m'aura fallu plusieurs années pour adopter ce mindset, mais depuis que j'ai catégorisé chacun de mes objets dans Notion, que j'ai embrassé la dématérialisation avec mon Kindle, que je réfléchis mes achats pour n'acheter que de la qualité et que je revends ce qui m'est devenu inutile, je ne reviendrais pas en arrière peu importe mes moyens financiers. Tout est tellement plus simple quand les choses ont leur rôle et sont à leur place. Je suis d'ailleurs convaincu qu'un minimalisme bien pensé est un élément de plus qui contribue au bonheur. Avoir la plus grande maison du village n'a aucun intérêt si elle est mal pensée et n'est pas fait à notre image.
+
+P: J'imagine que ce minimalisme va de pair avec la mutualisation que prônent les solarpunks?
+
+J: Oui, la mutualisation est un autre concept qui s'aligne étroitement avec les idéaux du solarpunk. On y retrouve très souvent des jardins communautaires ou des makerspaces (ateliers de bricolage ou cafés de réparation partagés) qui mettent à disposition des outils et des espaces pour que les habitants puissent créer, apprendre, expérimenter et collaborer sur divers projets. Ces espaces sont pensés pour soutenir l'innovation, le "do it yourself" et pour que les talents des uns rencontrent les besoins des autres. N'oublie pas qu'au coeur de la réfléxion solarpunk se trouve la question d'un avenir durable. Il n'y a aucun intérêt à ce que chaque famille possède une caisse à outils complète ou même sa propre tondeuse à gazon. Tout le monde est gagnant financièrement et cela permet aussi d'atténuer aussi les inégalités.
+
+P: Oui mais si il y a des vols ou des dégradations, ça ne risque pas de poser problème sur le long terme ? En vrai, moi j'ai tout ce qu'il me faut dans mon garage, je suis pas certains que je serais prêt à partager mes outils avec mes voisins.
+
+J: C'est une question légitime mais c'est là que la confiance et la solidarité entrent en jeu. Les solarpunks croient en la bonté humaine et en la responsabilité collective. Certes, il y a toujours un risque qu'une personne choisissent de nuir au groupe pour ses intérets personnels mais ce n'est pas non plus une société anarchiste sans règles où chacun peut faire ce qu'il veut. Chaque communauté doit avoir ses trucs et astuces pour éviter les dérives et pour trouver une solution qui fasse sens lorsqu'il y a des dégradations. Pour ce qui est du partage, les gens pour qui le système fonctionne très bien aujourd'hui n'ont aucun intérêt à mutualiser. Ils seront toujours les derniers à embrasser un tel système et il est tout à fait logique que ce type de mentalité ne leur parle pas. Quand tu as une voiture et zéro problème financier, à moins de chercher à faire de nouvelles rencontres, tu n'as pas une grande incitation à utiliser Blablacar.
+
+P: Tu mentionnes le covoiturage, mais on ne peut pas imaginer 100% de nos déplacements de cette manière.
+
+J: Là, tu mets le doigt sur une de mes théories avec laquelle beaucoup de personnes sont sceptiques. Que cela plaise ou non, il y aura un moment où la voiture autonome de niveau 4 et 5 verront le jour. Sachant que c'est l'un des objets du foyer le plus onéreux et qu'il est la plus grande majorité du temps inutilisé, il est tout à fait probable que posséder sa propre voiture uniquement pour soi devienne l'exception. Il y aura forcément des entreprises, des coopératives locales, ou des familles qui feront de la mobilité partagée. Cela ressemble-t-il à un retour en arrière ? Peut-être si on est pessimiste, mais on peut aussi imaginer que nos transports seront complètement repensés avec une telle innovation et nos usages par la même occasion. De toute façon, et c'est un point très important de l'idéologie solarpunk, la réduction de la dépendance aux voitures individuelles est fortement encouragé et ils envisagent la mobilité dans le cadre d'un écosystème urbain et rural intégré. Les sociétés ne sont donc plus construite autour de la voiture comme c'est beaucoup le cas aujourd'hui notamment aux États-Unis. 
+
+P: S'ils y arrivent, ce ne sera pas forcément négatif. Les gens kiffent les central parcs parce qu'il n'y a pas de voitures partout. Mais dis-moi, il y a une question que je me pose depuis le début. Les solarpunks cherchent donc à créer des systèmes pour qu'ils durent et aient un impact écologique réduit. C'est un peu de la décroissance, non ?
+
+J: Je ne suis pas sûr que le solarpunk se résume uniquement par la décroissance. C'est juste que la croissance du PIB n'est pas vu comme un indicateur de succès. Prenons un exemple simple et imaginons une entreprise qui parviendrait à produire une poèle qui dure une vie entière (contrairement aux publicités qui vantent des poèles non adhésives extraordinaires qu'on doit jeter après 2 ou 3 ans). Cette dernière aurait toute sa place dans une société solarpunk et sa croissance ne serait pas vue comme quelque chose de négatif à condition qu'elle ne nuit pas à l'environnement qui l'entourent. Il arriverait un moment où chaque famille aurait sa poèle et où les ventes ralentirait sérieusement puisque celles-ci sont durables, mais est-ce grave ? Une société solarpunk ne cherche pas à produire pour produire mais à produire pour répondre à un besoin. Par conséquence, le monde de la publicité qui cherche à créer un besoin quand il n'y en a pas, c'est un peu l'antithèse du solarpunk. Qu'on le veuille ou non, nous sommes le produit de notre environnement et lorsque nous sommes mitraillés de messages publicitaires à longueur de journée, cela demande une grande discipline de n'acheter que ce qui nous est réellement utile.
+
+N: Petite astuce pour les fans de cuisine, si vous cherchez une poèle qui dure à vie, il faut privilégier de l'inox 3 plis 18/10 et apprendre la technique de préchauffe avant utilisation (technique de la goutte d'eau) puis s'informer sur comment l'entretenir correctement. Et attention à l'obsolescence progammé qui est un vrai fléau dans cette industrie.
+
+## Le solarpunk est un mouvement esthétique et artistique incompatible avec le greenwashing
+
+J: Et en parlant d'art, on associe souvent le solarpunk à l'Art nouveau. Pour t'expliquer rapidement ce qu'est L'Art Nouveau, c'est un style artistique qui a émergé à la fin du 19e siècle et qui est connu pour ses formes inspirées de la nature, ses lignes courbes élégantes et son intégration harmonieuse entre l'art et l'artisanat. On y retrouve souvent des motifs floraux et organiques, qui peuvent être vus comme un précurseur de la vision solarpunk où la beauté de la nature et le design humain se fondent. D'ailleurs l'Art Nouveau, était lui aussi un mouvement avant-guardiste à son époque cherchant à rompre avec les styles artistiques classiques par l'innovation et la création d'un nouveau langage visuel. Ce qui est d'ailleurs amusant, c'est que l'Art Nouveau ne se limitait pas uniquement aux beaux-arts mais englobait lui aussi une large gamme de disciplines, de l'architecture à la décoration intérieur visant à intégrer l'art dans la vie quotidienne.
+
+P: D'accord, mais en quoi cela peut-il améliorer notre quotidien ?
+
+J: L'art joue un rôle crucial dans une société et ce pour plusieurs raisons. Comme tu l'as compris Le solarpunk envisage un futur où l'esthétique, la durabilité et la fonctionnalité sont imbriquées pour rendre les espaces de vie à a fois beaux, utile et écologique. Cette beauté avec la nature a des effets thérapeutiques, elle offre du réconfort, un échappatoire, et un moyen de réduire le stress. Il faut s'émerveiller pour être heureux. Une société sans art et une société sans émotions. Sommes-nous fait pour vivre dans un monde de béton qui ne possèdent ni nature ni couleurs ? C'est pourtant ce vers quoi nous n'avons fait que nous diriger. Le capitalisme et l'uniformisation qu'il engendre tendent à imposer le noir, le blanc et le gris partout dans la production. Qu'il s'agisse de biens de consommation, de la mode ou dans l'architecture. Hors, il faudrait être malhonnête pour nier que ces couleurs ont un impact sur notre équilibre psychique et notre humeur.  L'art nourrit la créativité et inspire l'innovation en plus de contribuer à notre bonheur. C'est pourquoi les solarpunks redonne à l'art et à l'esthétique la place qu'ils méritent.
+
+P: On se dirige donc vers des batiments avec des toits verts, des parcs et des espaces verts intégrés ?
+
+J: C'est l'un des risques qu'encourt le solarpunk: le greenwashing. Réussir à faire passer quelque chose pour écologique alors qu'elle ne l'est pas. L'état d'esprit solarpunk cherche à créer et optimiser des systèmes en réfléchissant à la durabilité pour qu'ils fonctionnent sur le long-terme. Planter des arbres sur des immeubles qui sont souvent réalisé avec des matérieux non durables et qui nécessitent beaucoup d'eau et d'énergie pour être maintenus, c'est du faux solarpunk. Et dans le cas d'une énergie qui deviendrait moins accessible, c'est un cadeau empoisonné à la fois pour l'arbre et la collectivité. Un aspect critique du solarpunk est qu'il fait toujours primer le pragmatisme et l'observation sur la doctrine et l'idéologie. À de rares exceptions près, si ce n'est pas durable, cela n'a pas sa place.
+
+P: Pourtant on a l'impression que le solarpunk est un mouvement très urbain. C'est pas un peu paradoxal ?
+
+J: C'est vrai que le solarpunk est souvent associé à des villes mais c'est surtout parce que c'est là qu'on peut imaginer les changements les plus spectaculaires. Mais si tu veux mon avis, je pense que dans la pratique, le solarpunk a besoin d'un minimum de surface et c'est pourquoi je pense que c'est assez incompatible avec la densité actuelle de nos métropoles. Cela nous amène d'ailleurs à l'une des notions les plus importantes de ce mouvement : la décentralisation.
+
+## Les solarpunks sont des amoureux de la liberté et c'est pourquoi ils décentralisent et embrassent les changements de paradigmes qui amènent à davantage de résilience
+
+J: Un système décentralisé est un système plus résilient pour absorber les chocs. Les points de défaillance uniques sont réduits ce qui le rend moins perméable aux attaques qui endommagerait le système tout entier. Un système décentralisé est généralement plus résistant d'un point de vue opérationnel car il permet de répartir le fonctionement entre plusieurs noeuds. D'un point de vue individuel et collectif, il y a beaucoup d'avantages à penser un système de manière décentralisé. Internet est probablement l'exemple le plus emblématique mais les coopératives qu'elles soient agricoles ou de crédit, sont d'autres illustrations de systèmes économiques décentralisés où les décisions et les bénéfices sont partagés entre les membres. Certains prôneront également que les gouvernements ont été obligé de centraliser car l'accès à l'information était difficile. Aujourd'hui, ce n'est plus le cas car nous avons ce réseau de communication globale qui nous unit tous. Il y a beaucoup de décision qu'on peut décentraliser en se mettant au plus proche du terrain et du citoeyn, c'est à dire en déléguant une part importante du pouvoir au niveau local.
+
+P: D'accord pour Internet, mais il y a une bonne raison sur pourquoi on a centralisé nos systèmes. On standardise pour pouvoir mieux gérer. Et en plus, ça permet de réduire les coûts.
+
+J: Tous les systèmes n'ont pas vocation à être décentralisé. Néanmoins, si on se projette dans le futur, on peut imaginer beaucoup d'innovations qui vont nous faire changer de paradigmes. Il est toujours très difficile de prédire le futur donc ne m'en tiens pas rigueur mais imaginons un monde qui connait des pertubations énergétique. En cas de coupure d'électricité, un système avec des panneaux solaires et des batteries permet de ne pas recourir au réseau pendant un temps donné ce qui limite la paralysie. Tu ne pourras certes pas continuer à fonctionner comme si de rien n'était mais tu pourras continuer à utiliser un peu d'énergie. Et pour ceux qui sont autonomes, ils ne le sentiront pas. Mais le solarpunk n'a pas vocation à chercher l'autonomie partout. C'est un mouvement pragmatique qui ne cherche pas à se détacher du réseau si cela ne fait pas sens.
+
+P: Au prix où ça coûte des panneaux solaires et des batteries de stockage, c'est pas demain la veille que tout le monde pourra se permettre de s'en équiper. Et puis, il y a des endroits où il n'y a pas assez de soleil pour que ça soit rentable. C'est pas un peu élitiste tout ça ?
+
+J: Oui et c'est un mouvement qui imagine un futur qui semble avoir résolu ces problématiques. Y arriveront-on ? Y aura-t-il dans les années à venir des innovations exceptionnelles dans les batteries et la production d'énergie solaire ? Je n'en sais rien mais beaucoup de gens y travaillent et le capital investit est de plus en plus important. Le mouvement solarpunk est basé sur la narrative d'un monde meilleur et c'est exactement dans ces moments-là qu'il permet de continuer à avancer et de garder le cap de la recherche plutôt que de se lamenter dans la paralysie. En revanche, ce qui est certains, c'est que l'optimisation est au coeur du solarpunk et que vivre dans des grandes maisons mal isolée ou d'allumer son SUV pour aller chercher du pain n'est pas du tout dans l'esprit. Les banlieues américaines telles qu'elles existent aujourd'hui qui privilégient la dépendance à la voiture, la consommation énergétique élevée, et souvent un manque d'espaces communautaires partagés ou verts sont donc à l'opposé de ce que prône le solarpunk.
+
+P: D'ailleurs, le solarpunk ne se limite pas à l'énergie solaire, si ?
+
+J: Non pas vraiment. On y trouve aussi l'éolien, la biomasse, la géothermie, l'hydroélectricité, etc. Bref, tout ce qui est renouvelable et durable. En soit, on pourrait aussi considérer la fusion nucléaire comme une source d'énergie solarpunk.
+
+P: Et pour les réacteurs à fission nucléaire ?
+
+J: La fission nucléaire est un sujet assez controversé dans le solarpunk. Certains solarpunks sont pour en raison de sa capacité à produire une grande quantité d'électricité de manière continue avec une faible émission de carbone. D'autres sont contre en raison des enjeux sécuritaires. Beaucoup pourraient voir dans les technologies de fission nucléaires émergentes une partie de la solution vers un avenir plus durable, tandis que d'autres pourraient les considérer incompatibles avec les idéaux centraux du Solarpunk. C'est une question difficile car tout comme les énergies fossiles, la fission nucléaire y est souvent vu comme une technologie du passé dans l'imaginaire solarpunk.
+
+P: Mais pour revenir à ton histoire de décentralisation, tu as d'autres exemples ?
+
+J: Produire localement ses fruits et légumes depuis son potager, un verger ou des jardins collectifs est en soi une autre forme de décentralisation. Une partie de tes produits alimentaires ne dépend alors plus d'un supermarché centralisé. Alors oui, cultiver demande du temps et tout le monde n'a pas la main verte, mais on pourrait imaginer des technologies comme des farmbots très évolués qui pourraient aider à automatiser. Les farmbots sont encore des prototypes de hacker qui ont leur limites mais ne jetons pas le bébé avec l'eau du bain. C'est une invention qui va s'améliorer au fil des années et encore plus avec l'intelligence artificielle embarquée. N'oublions pas que le solarpunk est un mouvement qui croit dans l'innovation et la technologie.
+
+P: Les farmbots ? C'est quoi ça ?
+
+J: Dans les grandes lignes, c'est un project open-source qui a vu le jour en 2011. Il s'agit d'un robot qui est positionné sur trois axes au dessus d'un potager et qui intègre la technologie pour planter, arroser, désherber, et surveiller les cultures de manière autonome. Il cherche l'utilisation efficiente des ressources, comme l'eau et l'énergie, et soutient les pratiques d'agriculture durable tel que la permaculture. Ce type de produit est clairement dans l'esprit solarpunk. Les détracteurs te diront que cela va beaucoup plus vite de jardiner directement avec ses mains et c'est probablement vrai. Seulement, ils ne sont juste pas la cible car tout le monde n'a pas le temps ni l'envie de jardiner toute la journée. Ce type de technologie démocratise le potager individuel et décentralise une partie de la production de fruits et légumes. Et encore une fois, on peut très bien imaginer des itérations futures complètement dingues qui contribueront à changer le paradigme de comment on produit et consomme nos aliments. Et entre-nous, plus le temps passe, et moins les légumes qu'on nous propose en supermarché ont de goût ?
+
+P: Je doute que tu arrives à te passer un jour de ton supermarché. Tu vas faire comment pour produire ton dentifrice, ton papier toilette, ton savon, etc. ?
+
+J: Les solarpunks ne cherchent pas à produire tout ce qu'ils consomment sinon ils auraient des usines de microprocesseurs dans leur jardin. Ils cherchent simplement à décentraliser ce qui fait sens et ce qu'il est possible de faire grâce à la technologie. Et je ne parle pas uniquement de la high-tech. Le solarpunk embrasse aussi le low-tech. Par exemple, en France on consomme des centaines de milliers de tonnes de plastique chaque année à cause des bouteilles d'eau. On y est habitué mais on voit bien que c'est un non-sens. As-tu déjà entendu parlé des filtres à gravité Berkey ou du français Weeplow? Ce sont des systèmes de filtration très puissant qui permettent de purifier l'eau. Chaque filtre (et on peut en mettre jusqu'à 4 par récipient) est capable de filtrer jusqu'à 5,000 litres. Sachant qu'en moyenne, une personne consomme 1,000 litres par an, avec seulement deux filtres, un foyer de deux personnes n'aura pas à les changer avant 5 ans s'il ne filtre uniquement que l'eau du robinet.
+
+P: Pourquoi uniquement l'eau du robinet ? Tu veux pas qu'il filtre l'eau de la rivière aussi ?
+
+J: Et bien justement, c'est de la low-tech mais ce type de filtres est également conçus pour filtrer de l'eau provenant de diverses sources, y compris l'eau de pluie et l'eau de rivière. Il y a néanmoins des précautions à prendre si tu veux la boire comme s'assurer qu'il n'y ait pas de polluant dans ta région qui pourraient passer au travers. Il faut aussi faire attention car l'eau de pluie est faiblement minéralisé et ne contient pas les minéraux essentiels, tels que le calcium et le magnésium, que l'on trouve dans l'eau potable habituelle. Je te laisserais faire des recherches car cette technologie n'est pas nouvelle et qu'il y a beaucoup de ressources sur le sujet. Dans tous les cas, acheter de l'eau en bouteille plastique devrait être une exception et non la norme. Filtrer son eau du robinet ou récupérer l'eau de pluie pour arroser son jardin (ce qui est encouragé en France) sont encore un exemple de décentralisation car on dépend moins du réseau.
+
+P: Mais on peut vraiment décentraliser autant de choses avec tout ce qu'on a besoin dans notre quotidien ?
+
+J: Probablement, même s'il faudra sûrement repenser beaucoup de nos habitudes et ce ne sera pas toujours facile. Dans tous les cas, la technologie peut grandement nous aider à décentraliser et il y a beaucoup de choses qui n'existent pas qu'il faudra inventer. Ce que je veux que tu retiennes, c'est que les solarpunks sont des amoureux de la liberté et c'est aussi pourquoi ils décentralisent. C'est une question de souveraineté pour la communauté. Ce n'est pas simple car cela demande de l'organisation et des compétences mais nous devons voir tout ceci comme quelque chose de positif. Combien d'entre-nous ne savent plus cuisiner, réparer un vêtement, ou même faire pousser une plante ? C'est quelque chose qui n'est pas souhaitable car nous devenons dépendant et vulnérable de l'industrie. Une augmentation des coûts et c'est notre pouvoir d'achat qui diminue. Une pénurie et c'est notre sécurité qui est alors rapidement mise sur la table. Il faut cultiver la résilience lorsque cela fait sens. Notre société n'a fait que centraliser aveuglément mais nos systèmes ne sont pas infaillibles aux crises. Les solarpunks ne sont pas des survivalistes qui vivent dans leur montagne mais ce ne sont pas non plus des assistés qui ne savent rien faire de leur dix doigts. Avoir d'avantage de contrôle sur notre vie et sur notre environnement est un des piliers de l'idéologie solarpunk.
+
+## Le rapport à la connaissance, à la pratique et à l'enseignement chez les solarpunks
+
+P: Mais c'est pas un peu difficile de tout savoir faire ? On ne peut pas être bon en tout. Et puis, on n'a pas tous le temps de tout apprendre. Tu imagines le nombre de compétences qu'il faudrait avoir pour être solarpunk avec tout ce que tu nous racontes ?
+
+J: Oui et c'est aussi pourquoi ils ne vivent pas seul. Mais tant qu'on y est, abordons un autre point important. Le rapport à la connaissance est très différente chez les solarpunks de ce que tu peux voir autour de toi. Ils sont très attachés à l'apprentissage, à la transmission des savoirs et à l'open-source. On peut les voir comme des autodidactes curieux qui ont une soif insatiable de connaissances mais ils sont à l'image des startups, sans cesse dans l'expérimentation qu'ils soient seul ou plusieurs. Il y a d'ailleurs un tryptique qui revient souvent dans la communauté solarpunk : "Learn, Make, Teach". Apprendre, faire, enseigner. C'est un cercle vertueux qui tourne sur lui-même notamment grâce à l'effet Feynman. On a évoqué les makerspaces tout à l'heure, mais il y a aussi les fablabs, les hackerspaces, les repair cafés, les jardins partagés, les ateliers de réparation, etc. Tous ces lieux sont des espaces de partage de connaissances et de compétences qui ont une place omniprésente dans les sociétés solarpunks.
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+- **GÉNÈSE DU MOUVEMENT SOLARPUNK**
+            
+    Ecofascism: blames climate change on overpopulation and asserts that population control is the best path to prevent further climate change. It goes togehter with eugenics which in turn raise in racism, ableism and classism which it has no place in solarpunk. https://www.euronews.com/green/2021/03/21/the-dangers-of-eco-fascism-and-why-it-s-a-veneer-for-racist-beliefs
+    
+On ajoute également à ce mélance une promotion de la culture de hacker comme l’open-source, la décentralisation et le DIY ainsi que ethnisme et du multiculturalisme pour compléter la recette solarpunk.
+    
+    Hayao Miyazaki is solarpunk (Nausicaa, Princess Mononoke, Castle on the Sky and the Automatons that lives their lives as gardeners tending to the lush greens and the animal life representing a true symbiotic relationship between technology and the idyllic to serve nature. What makes the symbolism doubly powerful is that these robots were originally created as weapons, vessels of war to protect the island and attack against invaders to the utmost scale. Withou humans that changes, now their roles as gardeners exist as an antithetical reprieve from man-made directive of destruction, they are now activists, conversationists, solar punks).
+
+    Le solarpunk mesure et optimise. Même dans le cas de l'abondance. L’abondance, s'il y en a, est mesurée.
+
+    It’s an ideology and a movement. It’s in contrast with other movements like cyberpunk. It’s a movement dedicated to human-centric and eco-centric ends.
+    
+    It’s founded on the pillars of environment sustainability, self-governance and strong communities.
+    
+    It derives its name from the cyberpunk genre, and all the other punks it has spawned. Real quick: there is steam punk which focused on the industrial revolution and steam-powered tech. It’s one of the most popular after cyberpunk. There is dieselpunk, focused on the designs of the interwar period. There is atompunk focused on atomic power, steelpunk, focus on the ate 20th century hardware. Stonepunk which is neolithic…
+    
+    Solarpunk is about “ingenuity, generativity, independance, and community. It’s suffixed by punk because it opposes our existing world. It creates local resilience, authorities be damned, from rooftop solar to guerilla gardening.
+    
+    It’s a speculative movement. It’s also a community of hackers.
+    
+    
+    En embrassant un usage technologique et une organisation socio-économique raisonnée. Un monde qui incarne le meilleur de ce que l’humanité peut accomplir. Il imagine une humanité qui a surmonté les nombreux défis d’aujourd’hui c’est-à-dire le réchauffement climatique. On a donc des sociéts profitant de niveaux de vie élevé sans empiété sur les limites de la planete. Le recyclage, l’économie circulaire, les fortes communautés locales, le DIY sont autant d’élément mis en avant par le solarpunk.
+    
+    The solar is both literal and metaphorical. Literally it represents solar and other renewable energies. 
+
+L'association du Solarpunk au décolonialisme repose sur plusieurs principes partagés qui visent à repenser et à réimaginer nos sociétés et nos relations avec l'environnement, les technologies, et entre les peuples, en dehors des structures de pouvoir coloniales et post-coloniales existantes.
+
+1. Critique des Structures de Pouvoir Actuelles
+Le Solarpunk et le décolonialisme remettent en question les structures de pouvoir actuelles, en particulier celles issues de l'histoire coloniale qui ont profondément affecté et continuent d'affecter les relations internationales, les économies, et les écologies. Ils proposent des visions alternatives où le pouvoir et les ressources sont redistribués de manière plus équitable.
+
+2. Emphase sur la Durabilité et la Réconciliation avec la Nature
+Le Solarpunk met l'accent sur la durabilité, l'énergie renouvelable, et une existence en harmonie avec la nature, qui sont des principes souvent alignés avec les savoirs traditionnels et les pratiques environnementales des peuples autochtones et des communautés colonisées. Le décolonialisme reconnaît et valorise ces savoirs et pratiques comme essentiels à la déconstruction des héritages coloniaux et à la construction d'un avenir plus durable.
+
+3. Pluralisme et Inclusion
+Le Solarpunk promeut une vision du futur inclusive et diversifiée, valorisant les voix et les expériences des marginalisés, y compris les peuples autochtones, les communautés de couleur, et d'autres groupes souvent effacés ou marginalisés dans les récits dominants. Cette approche est en résonance avec les objectifs du décolonialisme, qui cherche à centrer et à valoriser les perspectives et les connaissances des peuples colonisés ou autrefois colonisés.
+
+4. Innovation et Futurisme
+Tout en regardant vers l'avenir, le Solarpunk et le décolonialisme s'efforcent d'imaginer des alternatives radicales aux modèles de développement, de technologie et de société actuels. Ils explorent comment la technologie peut être utilisée de manière éthique et durable, en dehors des paradigmes de l'extraction et de l'exploitation qui caractérisent souvent le colonialisme et le capitalisme.
+
+En somme, l'association du Solarpunk au décolonialisme découle de leur recherche commune d'un avenir où la justice sociale, environnementale et économique est réalisée à travers la déconstruction des systèmes de pouvoir oppressifs et la création de sociétés plus équitables, durables et inclusives. Cette association souligne l'importance de revoir nos relations avec la technologie, l'environnement, et les uns avec les autres, dans un esprit de guérison et de réconciliation après des siècles de colonisation et d'exploitation.
+
+- **OPTIMISME, CAPITALISME, RESPECT DE LA NATURE & COMMUNAUTÉ DU PARTAGE**
+        
+    You are tired of the doom and gloom
+    
+    Harmonie avec la nature : Cohabitation respectueuse avec l'environnement naturel.
+    
+    Urbanisme : Ville durable, agriculture urbaine, toits verts, parcs et espaces verts intégrés.
+    
+    Solarpunks collaborate all around the world thanks to the Internet.
+    
+    Inclusion and diversity 
+    
+    Biodiversité : Conservation et restauration de la variété des espèces vivantes.
+    
+    Interdépendance : Reconnaissance des liens qui unissent les êtres humains, la technologie et la nature.
+    
+    We’re *solarpunks* because the only other options are denial or despair. The promises offered by most Singulatarians and Transhumanists are individualist and unsustainable: How many of them are scoped for a world where energy is not cheap and plentiful, to say nothing of rare earth elements?
+    
+    They refuse pessimism. Their worlds are not necessarily utopian but rather solarpunk seeks to present an alternative to a pessimistic, consequential dystopian outcome. To achieve this, themes of do it yourself ethics, convivial conservation, [self-sustainability](https://en.wikipedia.org/wiki/Self-sustainability), social inclusiveness and [positive psychology](https://en.wikipedia.org/wiki/Positive_psychology)are often present. This perspective also more closely embeds the ideals of [punk ideologies](https://en.wikipedia.org/wiki/Punk_ideologies), such as [anti-consumerism](https://en.wikipedia.org/wiki/Anti-consumerism), [egalitarianism](https://en.wikipedia.org/wiki/Egalitarianism) and [decentralization](https://en.wikipedia.org/wiki/Decentralization), than cyberpunk which typically includes protagonists with punk beliefs but in settings that are used more as a warning of a potential future.
+    
+    Hope is believing that what you are doing make sense regardless than how it turns out. It is different than optimism.
+      
+    Les gens sont plus heureux en donnant. C’est la même chose avec la cuisine.
+    
+    Communautés : Valorisation de la solidarité, de la diversité et de l'autosuffisance.
+    
+    Solarpunk's interpretation of social collectivism strongly contrasts the individuality of Bohemian counterculture; Solarpunk recognizes individuality as an integral component of [progressivism](https://en.wikipedia.org/wiki/Progressivism) and identifies sociocultural distinctions as an impetus for change, though Solarpunk encompasses these elements within the greater socioecological scaffolding in a manner that contrasts the Bohemian assertion that individuality alone acts as the sole impetus for change.
+        
+    Il faut s’assurer de réduire au maximum les barrières à l’entrée, créer un monde le plus inclusif possible parce que si on arrive à faire cela, alors c’est gagné.
+    
+    On dévalorise quelqu’un qui prendrait un mi-temps pour s’occuper de ses vieux parents plutôt que quelqu’un qui va prendre un temps plein. Car ça réduit le PIB. On voit aussi à quel point on est loin d’être dans une société où l’humain est remis au centre.
+        
+    Ce qui créer des liens c’est les projets communs.
+    
+    Comment créer des communs qu’on peut partager ensemble.
+    
+    It’s about maximizing the value of what we have.
+    
+    At its core solar punk is an optimistic reaction to the cynical dystopian narratives that saturate much of popular culture wherein hyper-capitalism has thoroughly ruined the world in one terible way or another.
+    
+    Nature, humanity and technology coexist together and thrive. It’s in opposition with cyberpunk.
+
+    Nothing comforts anxity like a little nostalgia taunts The Matrix: Resurrections.
+    
+    We embody. We learn. We release the idea of failure it’s all data. But first, we imagine. We are in an imagination battle. If we embrace dystopia, if we embrace doomerism, we lose hope as a platform for action in the present. In assuming that incremental change is hopeless against entropy, we either embrace the darkness or put our faith in panaceas, magic potions, grifters, charlatans and superhero teams who will emerge in the shadows and fix everything. We become locked in a stasis and fail to do anything at all. A lack of hope and imagination becomes a self-fulfilling prophecy.
+    
+    Les oceans sont vital pour l’avenir de l’humanité. Ils nous apportznt la moitié de l’oxygène atmosphérique qii est produit par le philoplancton marrin, l’absorption des gaz a effet de serre l’absorption de chaleur lie a ces gaz a effet de serre, il nous amene une régulation du climat, des protéines (2 milliards d’habitants tirent leurs proteines de la mer) etc. Voir la mer comme un élément uniquement économique est insupportable. https://youtu.be/Wa_IMzRc1ww
+    
+    Le capitalisme et les fonds marins et des nodules polimetaliques. Ne faisons aps les memes betises qu’ona. Fait sur terrz ou on fait les choses et apres on se fit oh mon dieu qu’est ce qu’on a fait. La on a affaire a fes milieux extrêmement fragile et extraordinaire. On est a des endroits il fait froid il fair noir on a fes presionns monstrueux et pourtant on a fe la vie. Ne commencons pas par detruire cette vie avant de l’avoir comprise meme au nom d’une exploitation qui va être majoritairement privatisée et servir un petit nombre d’individus et pas l’humanité toute entière. La france s’est prononce sur le sujet avec Macron et a refusé l’exploitation. https://youtu.be/Wa_IMzRc1ww
+    
+    The act of sharing is at the heart of solarpunk. There is happiness in sharing for oneself because you feel useful. Most of the time, you get more hapiness by sharing than by receiving. That’s exactly what I feel when I cook.
+    
+    The burden of changing the course of human and planet history is not entirely on individuals like us. Governments and corporations have also a big impact. Can they change?
+    
+    A world where no one know the first name of their neighbors
+    
+    The idea that the future is full of pain, war and everything. No one knows and certainly not the medias who are eager to spread each bit of negative news to grasp our attention.
+    
+    The uncertainty of the world and climate chaos is driving many into a state of apathy. Inaction and status quo politicking is so prevalent among the ruling class that it’s easy to believe that there is no alternative.
+    
+    A world with worker co-operatives, tool shares, and common-pool resources. And all these decentraized approaches to economies would emphasize production focused not only on ecological well-being but human well-being.
+    
+    Solarpunk isn’t the blind capitalist hope that believes the world will magically turn out better with business-as-usual practices.
+        
+    I emphasizes collective living and the fulfillmant of both nature and humanity in a mutually beneficial relationship.
+    
+    Although solarpunk never had a particular political ideology assigned to it, it’s been embraced by liberatory ideologies of all flavours. From social ecologists to post-civ anarchists to green socialists. The philosophy of solarpunk and the politics of anarchism are pratically built for each other.
+    
+    La dignité humaine est en son centre.
+    
+    Socially it emphasizes unity, a shared responsibility, and harmony between both nature and fellow humans. The combination of these words kind of immediately make you think of a cult but it’s not.
+    
+    Cela met beaucoup l’accent sur une société où les communautés et la planète sont prioritaires sur le profit. Cela ne veut pas dire antagoniste mais prioritaire.
+    
+    The problem of suburbs that are dependent of everything is that they pollute 4 times the amount of emission of the people living in urban areas because you are dependnt on cars and there is longer commutes and you’re sharing less and less resources.
+    
+    “Architecture is the will of an epoch translated into space” - Ludwig Mies van der Rohe - German American architect.
+    
+    In my opinion, forming a specific architectural vision for solarpunk is hard because of it's focus on nature, the kind of materials you use will depend on your area and it's ecosystem. Even the styles should pull from local cultures and tradition to really bringout the human factor of it all.
+    
+- **TECHNOLOGIE, DÉCENTRALISATION, AUTONOMIE & PARADIGMES**
+    
+    Autonomie : Indépendance énergétique, alimentaire, et économique des communautés.
+    
+    Le transiberien
+    
+    « Le meilleur moment pour planter un arbre était il y a 20 ans. Le deuxième meilleur moment est maintenant. » – Proverbe chinois
+    
+    Perhaps the most important strain is [decentralization](https://builtin.com/blockchain/decentralized-internet). By the nature of their design, decentralized platforms would likely stand more durable than those atop traditional network architecture in the event of catastrophe. That’s because there isn’t a central “brain” controlling the body.
+    
+    From solarpunk’s beginning, the roles of technology and decentralization have been consistent threads. As such, the use of decentralized technologies like peer-to-peer networks, [blockchain](https://builtin.com/blockchain)and [Web3](https://builtin.com/blockchain/what-will-web3-be-like) have piqued the interest of solarpunk followers wanting to advance the movement further into reality.
+    
+    On est incapable d’imaginer ce futur car on applique la façon dont le monde fonctionne aujourd’hui avec les nouvelles technologies. Mais ce qu’il y a c’est que les nouvelles technologies créent des nouveaux paradigmes et changent complètement la manière de raisonner.
+    
+    The integration of technologies into society in a manner that improves [social](https://en.wikipedia.org/wiki/Social_sustainability), economic and environmental [sustainability](https://en.wikipedia.org/wiki/Sustainability) is central to solarpunk
+    
+    They chose the electric version instead of the fossil fuel 
+    
+    Cyberpunk characters are typically those marginalized by rapid technological change or subsumed by technology, while the solarpunk archetype has been described as a "maker-hero”
+    
+    Real-life examples of solarpunk architecture include [Singapore's Botanical Gardens](https://www.nparks.gov.sg/sbg), which are the only gardens to be a UNESCO World Heritage Site; Italy's [Bosco Verticale](https://en.wikipedia.org/wiki/Bosco_Verticale), which in 2014 became the world's first oxygen-positive skyscraper; and [Bolivia's Neo-Andean architecture](https://www.sensesatlas.com/freddy-mamani-neo-andean-architecture/) by Freddy Mamani, which has successfully reclaimed traditional designs used by colonized peoples in a forward-thinking, sustainable way.
+    
+    Il n’y a rien de plus fou que de chercher à devenir 100% autonome seul. Même les moines dépendent des donations.
+    
+    “Dealing with infrastructure is a protection against being robbed of one’s self-determination,” said Chokwe Lumumba, the late mayor of Jackson, MS, and he was right. Certainly there are good reasons to have a grid, and we don’t want it to rot away, but one of the healthy things about local resilience is that it puts you in a much better bargaining position against the people who might want to shut you off
+    
+    Les solarpunks sont techno-optimiste mais ils ne pensent pas que la technologie seule va résoudre le problème. On est pas dans le techno-solutionisme qui n’est encore qu’une autre excuse pour ne pas changer. Je ne vois aucun problème à aller chercher mon pain avec mon 2 tonnes car de toute façon on va avoir la fusion etc.
+    
+    
+    On utilise la technologie comme outil et on suit le flow de la nature.
+    
+    On a construit des trucs fantastique mais se balader en ville en SUV de deux tonnes pour aller chercher du pain. C’est idiocratie.
+    
+    Dans ce type de communauté, les cryptos peuvent d’ailleurs avoir un sens très complet. D’ailleurs pour en revenir à l’éducation, tous les enfants devraient connaitre comment ouvrir un wallet, comme les cryptos fonctionnent etc.
+    
+    L’autonomie et la résilience est aussi une réponse vitale en cas de perturbation temporaire des flux logistiques mondiaux. Pouvoir tenir quelques mois en se serrant la ceinture sans devoir faire appel à l’extérieur c’est quand même toujours mieux que quelques jours.
+    Solarpunks is here to build how we should envision our world. It’s all about integration.
+    We are not inventing anything.
+    Communities can be slower, healthier far more human oriented than they are today.
+    A summary of what solarpunk is that its a collectivist movemtb that’s about working for the common good or the foundation of sustainability and where we use technology and knowledge to care for all humans and work to restore the ecosystem around us.
+    
+    While solarpunk emphasizes the local, it can still embrace global travel and transport with emerging technologies. Like retroffiting cargo ships with column like “sails” that reduce fuel use by 30% or future thinking cargo ships with retracting rigid sails. A solarpunk future that nvoles international cargo recognizes the need for thee high-tech sailing. It will be slower but solarpunk does not prioritize amazon prime-like convernience. This is something people will have to learn to live without.
+    
+    Oui mais si on ne fair pas d’argent comment on fair pour vivre ? Bah si tu as ta maison, ton potager autonome, ton energie, tes amis et ta famille il te reste le plus important ton temps. Et ce temps la tu peux l’investir au max dans la technologie pour etre encore plus autonome.
+    
+    Remorques solaires (une alternative aux groupes electrogenes).
+    
+    Solar hoven low tech
+    
+    Drying clothes in the nature at some time of the year.
+    
+    Even these last two years, AI helped people learn languages, code, be smarter, etc. New technologies are always scary. There was a time in history where the steam locomotions were first invented and when people were riding on them they were terrified that it was going to move their organs out of their natural placements because no human never rode that fast.
+    
+    There will be thousands of new problems to solve. But also a lot of innovations to help us along the way. But we must collaborate.
+    
+    Beluga Sky (article from steampunk to solarpunk)
+    
+    Create a climate where even our technology works to further sustainability and peace. Where the challenges of dealing with human issues evolve to worthwhile concerns of how to live together and not against each other. 
+    
+    Solarpunk also means embracing technologies like rooftop solar, passive houses, or even modern sailing innovations to allow the natural workings of the planet to flourish while also providing a comfortable living to the masses. In short, Solarpunk argues that just climate action doesn’t have to mean living in scarcity or giving things up, it instead shows us how beautiful the world could be when we live with appropriate abundance.
+    
+    Biogas digester to convert your cooking food scraps into usable gas or even electric stoves that run on your rooftop solar or community owned wind farm electricity.
+    
+    Sailing and airships. While a solarpunk world will look local, that does not mean that communities aren’t interconnected or that global travel will cease to exist. In fact, travel in a solarpunk world is as exciting and alluring as ever, without the copious amounts of fossil fuels to boot. Imagine a wolrd where traveling doessn’t havr to be rushed or stressful, in fact the transportation method could be the destination. Also, current airships required 90% less fuel when compared to commercial jets. With future designs possibly going full electric and requiring no fuel. It’s just slower.
+        
+    Solarpunk is all about collective living and resilience. It’s about DIY, it’s about using drones to bump seeds into ground for forests to grow and of course it’s deeply rooted also in renewable energy sources like solar and wind. It’s showing a life with harmony between tech and nature without a life full of sacrifices.
+    
+    Project: Oceanix
+    
+    A future where we have a lot of work to do, but we’re doing better. We are using technology for more uplifting ends. 
+    
+    The only thing about solarpunk is that it doesn't describe or explain how that advanced technology achieved. If its socialist/collectivism message then they need to explain where the advanced technology is coming from? R&D from a corporation? Who's assembling the technology? People with advanced degrees from a university, paid got with alot of money?
+    
+    Pour batir ce genre de villes, il faut des technologies plus avancées que ce que nous avons, smart cities, intelligence artificielle générale, robotique, automatisation, fermes verticales et autonomes, super batteries, matières programmables et je pense meme que la fusion nucléaire s’intègre parfaitement à cette vision de l’avenir. Mais le low tech a également sa place quand il fait sens: fours solaires, composteurs biogazs, permaculture, forets nouricieres urbaines, les filtres berkey ou les climatiseurs terracotta pouvant refroidir un batiment de 6 degrés avec des matériaux simples et surtout sans consommation électrique sont des exemples.
+    
+    Niveau transport le solarpunk imagine le retour des dirigeables pour le volable pour les grandes distances.
+    
+    In the last few years we have made some pretty big leaps in energy storage and electric transportation. We have net zero buildings and also pretty efficient systems for food production. But, if we are aiming for a true solar punk society and not the pretty solar punk renderings that we see on Pinterest, the society outlined by these die hard solar punk fans. Then, there a lot of economic, structural, social and architectural and technical challenges that we would have to overcome. We are also conditioned to expect the worst and the brain reacts more quickly to negative news than positive ones. Cyberpunk wins out because being a pessimist is easier. It just seemed like wherever humans go, ecological devastation inevitably follows. And this is the common rhetoric and as we get older, I think we start to believe in this idea more and more. The thing I like the most about solar punk is the complete blatant rejection of this idea that humans can exist and thrive with nature and technology and that a beautiful, glowing, sustainable future is possible. It’s solution oriented rather than dwelling on the problems. It’s the harder thing to do, and maybe that’s what makes it worth it. [https://www.youtube.com/watch?v=UVlBmdvIC6s](https://www.youtube.com/watch?v=UVlBmdvIC6s&list=PLzrl_j3ZI8WA6dAhA_8QiLorWMEMmadRn&index=2)
+    
+- **CONNAISSANCES, IKIGAI, INTELLIGENCE COLLECTIVE, DIY MAKERS & FARMING**
+    
+    If you have a garden and a library, you have everything you need.  Marcus Tullius Cicero
+    
+    Si tu as le choix tu vas travailler pour ton Ikigai et pour la communauté vs travailler pour un nombre minoritaire d’actionnaires qui n’habitent même pas dans ton quartier.
+    
+    Le solarpunk c’est beaucoup la mise en commun. Mais dans un futur limité, les communs sont une nécessité.
+    
+    Le système scolaire n’est pas construit pour trouver son Ikigai. Il n’y a qu’à voir le niveau des conseillers d’orientation. Il est l’inertie d’un système de plus en plus obsolète dans un monde qui change de plus en plus vite.
+    
+    Il faut qu’on ralentisse pour trouver notre Ikigai personnel et il faut s’en donner le temps.
+    
+    **Do-it-yourself ethos** Although solarpunk is concerned with technology, it also embraces low-tech ways of living sustainably such as [gardening](https://en.wikipedia.org/wiki/Gardening), [permaculture](https://en.wikipedia.org/wiki/Permaculture), [regenerative design](https://en.wikipedia.org/wiki/Regenerative_design), [tool libraries](https://en.wikipedia.org/wiki/Tool_library), [maker spaces](https://en.wikipedia.org/wiki/Hackerspace), [open-source](https://en.wikipedia.org/wiki/Open_source), [positive psychology](https://en.wikipedia.org/wiki/Positive_psychology), [metacognition](https://en.wikipedia.org/wiki/Metacognition), and [do-it-yourself](https://en.wikipedia.org/wiki/Do-it-yourself) ethics. Its themes may reflect on [environmental philosophy](https://en.wikipedia.org/wiki/Environmental_philosophy) such as [bright green environmentalism](https://en.wikipedia.org/wiki/Bright_green_environmentalism) and [social ecology](https://en.wikipedia.org/wiki/Social_ecology_(Bookchin)), as well as [punk ideologies](https://en.wikipedia.org/wiki/Punk_ideologies) such as [anarchism](https://en.wikipedia.org/wiki/Anarchism), [socialism](https://en.wikipedia.org/wiki/Socialism), [anti-consumerism](https://en.wikipedia.org/wiki/Anti-consumerism), [anti-authoritarianism](https://en.wikipedia.org/wiki/Anti-authoritarianism), [anti-capitalism](https://en.wikipedia.org/wiki/Anti-capitalism), [civil rights](https://en.wikipedia.org/wiki/Civil_and_political_rights), [commoning](https://en.wikipedia.org/wiki/Commoning), and [decentralization](https://en.wikipedia.org/wiki/Decentralization).
+    
+    Solarpunk is a future with a human face and dirt behind its ears.
+    
+    The solarpunk community is organized around knowledge and practice.
+    
+    IMHU, there is no solarpunk without the Internet.
+    
+    Les solarpunks croient dans l’intelligence collective.
+    
+    La meilleure façon d’apprendre c’est de faire.
+    
+    “Le rêve ultime et le but pour tout le monde dans la vie c’est de pouvoir travailler dans le milieu de l’Ikigai. C’est là où tu fais ton meilleur job.  J’ai envie de vivre dans une ville où tout le monde où tout le monde a l’opportunité de contribuer ce a quoi il ou elle est fait pour.” - Xavier Damman
+    
+    Regenerating ecosystems ; futuristic permaculture farming ; mutual aid networks ; sustainable urban living.
+    
+    Solar punk agriculture usually make own of permaculture.
+        
+    La relation des solarpunk avec la connaissance.
+    
+    Oui mais ta machine a cafe faut bien la produire ennchine ? Il arrivera un moment ou on pourra telecharger un modele et l’imprimer avec une imprimante 3D et faire pousser son cafe grace a la technologie soi meme son café. Et puis de toute facon quand on se creuse la tête on trouve. Il faut être optimiste avant tout.
+    
+    L’agritech (futura gaia) pour économiser l’eau. L’agronomie pour comprendre les plantes. Les fermes rotatives. -20% d’énergie consommée par rapport a la culture sur etagere. Il n’y a aussi plus de saison pour le basilic par exemple. La geoponie rotative pour recolter toute l’annee.
+    
+    Green tech: elicit plant (modifie l’adn des plantes pour qu’elles consomme moins d’eau), javelot (data pour le stockage de grains donc moins de perte), life (hydrogene vert dans la region de Nantes).
+    
+    Guerilla gardening
+    
+    We must develop maker spaces where people with common or divergent interestes, whether woodworking, coding, 3D printing, machining arts, crafting, sewing, science, cooking, or biking even, can meet, socialize, and collaborate, to share knowledge, resources and just have fun. Maker spaces are just one of the many ways we can unite communities through solarpunk principles.
+    
+    A world in which children grow up being taught about building electronic tech as well as food gardening and other skills, and people have come back around to appreciating artisans and craftspeople, from stonemasons and smithies, to dress makers and jewelers and everyone in between. This mix between artisans and tech is really inspiring.
+        
+    I'm just finishing The Martian by Andy Weir (haven't seen the film) and I think the main character, Mark Watley is the perfect kind of person you'd want in a SolarPunk community. Expert botanist and a brilliant all-purpose electrician/mechanical engineer. 
+    
+- **GESTION DES ÉNERGIES VERTES, LE NUCLÉAIRE ET LA FUSION**
+    
+    Énergies renouvelables : Énergie solaire, éolienne, marémotrice, etc.
+    
+    Technologie verte : Innovations technologiques axées sur la durabilité et l'écologie.
+    
+    Je pense qu’on ira au delà du threshold de CO2. Il y a qu’à regarder l’évolution de la consommation des différents types d’énergie qui s’empilent les unes au dessus des autres. On a toujours besoin de plus d’énergie, les cryptos, maintenant l’AI avec les GPUs. Les voyages de plus en plus fréquent, la mondialisation. Et c’est aussi pourquoi regagner ne serait-ce qu’un poil de souveraineté individuelle ou collective, ce ne sera pas de trop. Au moins si les chaines logistiques mondiales sont perturbées, on sera un poil plus résilient.
+    
+    Elle vise à mettre un terme à notre dépendance aux énergies fossiles.
+    
+- **CULTURE, DÉMOCRATIE & GOUVERNANCE**
+    
+    Démocratie participative : Implication directe des citoyens dans la prise de décision.
+    
+    Transparence : En matière de gouvernance, de technologie et de conception.
+    
+    C’est quoi la culture
+    
+    While solarpunk has no specific political ideation, it does by default embrace the need for a collective movement away from polluting forms of energy.[[18]](https://en.wikipedia.org/wiki/Solarpunk#cite_note-18) It practices [prefigurative politics](https://en.wikipedia.org/wiki/Prefigurative_politics), creating spaces where the principles of a movement can be explored and demonstrated by enacting them in real life. Solarpunks practice the movement in various ways, including creating and living in communities (such as [ecovillages](https://en.wikipedia.org/wiki/Ecovillages)), growing their own food, and a DIY ethic of working with what is available, including the thoughtful application of technology.
+    
+    Une DAO est une coopérative digitale. Une coopérative appartient à l’ensemble des personnes de la communauté et du coup ça réaligne les intérets de tout le monde. On peut donner les parts sans passer par un notaire aussi facilement qu’envoyer un email. On a une fluidité pour travailler ensemble.
+    Montrer ce que le monde pourrait être avec des green technologies, local foods, lightweight sustainable energy technologies, des structures meilleures qui requiert moins d’energie, plus belles, mieux designés, car free pathways et moins de cars, plus de bikes, ebikes, scooters, etc.
+    Beaucoup de visions du solarpunk nosu ramene a des pensées des années 1920 avant que le monde change avec des car centric designs.
+    Walkability is a big aspect. Designing communities for humans first not for cars. America is build for cars not for humans.
+    
+    Settings where technology enables humanity to sustainably co-exist with its environment with art nouveau-influenced aesthetics that convey feelings of cleanliness, abundance and equability.
+    
+    Humans are flexible creatures, capable of a whole range of social arrangement.
+    
+- **CONCLUSION**
+    
+    Quand on créer un nouveau système, par rapport au système existant, quels sont les premiers utilisateurs de ce nouveau système ? Ce sont ceux qui on été exclus de l’ancien. Parce que pour eux ce ne sont pas des vitamines, it is a pain-killer. Si tu es journaliste que tu as déjà une colonne dans un grand journal. Au début de l’Internet, c’est pas toi qui va ouvrir ton blog.
+    
+    Shrink the footprint while being more happier
+    
+    Ce n’est pas une vision low-tech post effondrement de l’avenir. C’est le monde des amish avec quelques panneaux solaires.
+    
+    Je ne pense pas qu’on a besoin de changer le système pour tout le monde mais on peut le fork pour certains. On aura toujours besoin de gens qui vivent dans des grandes villes.
+    
+    La resilience n’est pas de compter uniquement sur nos propres forces à l’échelle individuelle mais de créer un réseau. Il faut croire et agir pour des choses qui ont des chances de se realiser… affronter ensemble les problèmes et se mettre d’accord sur les modalités.
+    
+    Imaginons un instant que nous arrivons dans un monde où l’énergie est infinie.
+    
+    C’est une truc d’idéaliste mais c’est quand même bien stylé.
+    
+    Il faut repenser les villages. Ce n’est pas pour tout le monde.
+    
+    Meme si on a un monde avec une energie infinie. Est ce que c’est vraiment ce qu’on veut ? Je n’ai que faire de voyager dans une voiture volante pour me déplacer d’un point A à un point B, de vivre dans des tours toujours plus grandes où on ne connait pas nos voisins. par contre avoir une ferme autonome dans mon jardin qui produit des legumes qui ont du gout me permettra de cuisiner des recettes chouettes et d’avoir des discussions avec les gens que j’apprécie autour de moi a ma table.
+
+    On construit sans cesse des immeubles pour loger des personnes dans des surfaces de plus en plus petite. Mais au final, cela fait maintenant plus de 10 ans que je vis en ville et je n’ai connu que le nom d’un seul voisin malgré que je me considère comme quelqu’un d’assez social. Aujourd’hui on évite nos voisins. La ville a ses qualités et il ne s’agit pas de la bannir de nos vie mais as-t-on réllement intérêt d’y vivre 90% du temps? Ne serions-nous pas plus heureux dans un habitat construit à notre image qui nous ressemble avec un cercle social qu’on apprécie tout autour de nous? La qualité est souvent préférable à la quantité.
+
+    
+    Solarpunk means that we will have a better future if we fight for it if we demand it.
+    Capitalism conflicts with solarpunk because it incentivizes individuals to extract more than they contribute at the expense of other people and the planet. Additionally, profit motives lead it to overproduction and planned obsolescence (iPhone pictures) which wastes resources for nothing. It’s considered incompatible because sustainability is a big centerpiece of the solarpunk ideology. Resources are consumed and replenished responsibly. Also, capitalism is considered to drive inequality among people.
+    
+    It seems to be easier for us today to imagine the toroughgoing deterioriation of the earth and of nature than the breakdown of late capitalism. Perhaps that is due to some weakness in our imagination. - The Seeds of Time. Fredric Jameson (1994)
+    
+    Arcane : if a single seed can do it here so could we. https://www.getyarn.io/yarn-clip/69c8478b-f9cd-4027-bb1a-d622a4ba32b3
+    
+    Instead of focusing on thecnlogies that make the most profit, Solarpunnk urges us to seek out ideas and tools that deepen our interpersonal relationships as well as our ties to the earth beneath our feet.
+    
+    Ultimately solarpunk envisions a world that might be slower, but more intentional. One that ties humanity closer to the natural world.
+    
+    It is a mindset. Solarpunk is futuristic habits.
+    
+    Solarpunk encourages us to strive towards ecological utopias enabling us to view better worlds that by its very definition. It is an antidote to anxiety by being an action and learning from this mindset.
+    
+    There is a manifesto for solarpunk 
+        
+    So, while Solarpunk envisions possible futures, it is still very much grounded in the present. There are very tangible actions and suitable technologies that we can implement right now to build a Solarpunk future.
+    
+    Documentary: Future by Design with Jacque Fresco
+    
+    Book: The Whole Building Handbook. How to Design Healthy, Efficient and Sustainable Buildings
+    
+    Youtube: Solarpunk Life 
+    
+    Youtube The Solarpunk Scene (Lindsay Jane)
+    
+    La contrainte libère.
+    
+    Starhawk’s The Fifth Sacred thing.
+    
+    Les réponses sont parfois contradictoires dans cette sous-culture.
+    
+    Almere in the Netherlands
+    
+    The garden city movement
+    
+    The hewison in the Netherlands
+    
+    Solarpunk all the way. Don't kill what you hate, Save what you love. Your videos are so insightful. Thank you for all your efforts.
+    
+    As a Dutch person and having worked for the municipality of Almere. The city doesn't have a great reputation. They tried. especially the city centre isn't recieved well by the people. But they are doing a lot of trials and experimentation with city building like Oosterwolde and Floriade. I reccommend looking those up. They also have plans to make the city centre greener! Almere is getting better!
+
+So when we look at these solar punk art pieces we see these beautiful worlds of humans living with technology and with nature in harmony. That’s why I find it so inspiring because it’s not denying our past and it’s not saying we have to go backwards but it’s about looking forward looking beyond the climate change, beyond the damages we have done to this planet. It’s saying well what can we do with the technology we have and to create worlds that we enjoy living in.
+
+    Solarpunk without the abolition of capitalism is just greenwashed cyberpunk.
+
+Il y a un futur bottom up décentralisé, open-source, transparent ou il il y a un futur qui est proche de celui Chinois qui voudra tout contrôler dans une société aux interdits croissants. Et nous en Europe, on ne doit pas devenir cela.
+    1. Solarpunk embraces a diversity of tactics: there is no single right way to do solarpunk. Instead, diverse communities from around the world adopt the name and the ideas, and build little nests of self-sustaining revolution.
+
+    It started out as genre of speculative fiction. A sort of sci-fi stories about the future. Like The Dispossessed : You cannot buy the revolution. You cannot make the resolution. You can only be the revolution. It is in your spirit, or it is nowhere. Ursula K. Le Guin.
