@@ -2,11 +2,13 @@
 
 ## Genèse de la communauté solarpunk
 
-J: Bon les amis, j'aimerais vous partager une histoire fascinante car je suis sûr que beaucoup d'entre vous n'en ont jamais entendu parlé. Il s'agit, des solarpunks. Alors, comme toutes les bonnes surprises dans la vie, on tombe souvent dessus par hasard. Et pour cela, un de mes stratégie préférée, c'est de m'égarer sur YouTube. Il y a quelques jours, je suis tombé sur [une vidéo à la couverture futuriste](https://www.youtube.com/watch?v=UqJJktxCY9U). On pouvait y apercevoir une société imaginaire. Ce qui était intéressant, c'est qu'on était loin des visions dystopiques d'effondrement. Dans cette histoire, la nature et la technologie cohabitaient en parfaite harmonie. Ils avaient l'air heureux. Du moins, il n'avait pas vraiment de quoi se plaindre. Alors j'ai été intrigué et forcément, ma nuit a été plus courte que prévue.
+J: Bon les amis, j'aimerais vous partager une histoire fascinante car je suis sûr que beaucoup d'entre vous n'en ont jamais entendu parlé. Il s'agit, des solarpunks. Alors, comme toutes les bonnes rencontres dans la vie, on tombe souvent dessus par hasard. Et pour provoquer les surprises, une de mes stratégies préférées consiste à m'égarer sur YouTube. Et il y a quelques jours, je suis tombé sur [une vidéo vraiment captivante](https://www.youtube.com/watch?v=UqJJktxCY9U). On pouvait y apercevoir une société imaginaire à la technologie avancée, vivant en parfaite harmonie avec la nature. Ils avaient l'air heureux. Du moins, il n'avait pas vraiment de raisons de se plaindre. On était assez loin des visions dystopiques habituelles et ça m'a bien plus donc j'ai décidé de creuser le sujet.
 
-N: Mais c'est qui les solarpunks ? Ils viennent d'où ?
+N: Mais c'est qui les solarpunks ?
 
-J: Si l'on revient à l'essence même du sujet, il s'agit d'un courant littéraire. Un genre de science-fiction qui imagine un futur qui s'appuie sur des technologies vertes, conduisant à des sociétés qui vivent en paix et qui favorisent le respect de la nature. La durabilité est une valeur très importante pour eux mais ce sont avant tout une collectivité centrée autour de l'humain, c'est-à-dire le vivre ensemble. L'énergie solaire y joue d'ailleurs une place centrale d'où le nom "Solarpunk". C'est d'aileurs dans les années 2010 que le mouvement a pris de l'ampleur. Pile au moment où le prix du solaire a grandement chuté rendant cette source d'énergie de plus en plus compétitive face aux combustibles fossiles comme le charbon ou le pétrole.
+J: Si l'on revient à l'essence même du sujet, il s'agit d'un courant littéraire. Un genre de science-fiction qui imagine un futur qui s'appuie sur des technologies vertes. Cela a conduit à des sociétés durables qui vivent en paix et qui favorisent le respect de la nature.
+
+La durabilité est une valeur très importante pour eux mais ce sont avant tout une collectivité centrée autour de l'humain, c'est-à-dire le vivre ensemble. L'énergie solaire y joue d'ailleurs une place centrale d'où le nom "Solarpunk". C'est d'aileurs dans les années 2010 que le mouvement a pris de l'ampleur. Pile au moment où le prix du solaire a grandement chuté rendant cette source d'énergie de plus en plus compétitive face aux combustibles fossiles comme le charbon ou le pétrole.
 
 N: Et ça se passe sur notre planète ?
 
