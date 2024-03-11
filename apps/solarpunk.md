@@ -112,8 +112,25 @@ J: Probablement, même s'il faudra sûrement repenser beaucoup de nos habitudes 
 
 P: Mais c'est pas un peu difficile de tout savoir faire ? On ne peut pas être bon en tout. Et puis, on n'a pas tous le temps de tout apprendre. Tu imagines le nombre de compétences qu'il faudrait avoir pour être solarpunk avec tout ce que tu nous racontes ?
 
-J: Oui et c'est aussi pourquoi ils ne vivent pas seul. Mais tant qu'on y est, abordons un autre point important. Le rapport à la connaissance est très différente chez les solarpunks de ce que tu peux voir autour de toi. Ils sont très attachés à l'apprentissage, à la transmission des savoirs et à l'open-source. On peut les voir comme des autodidactes curieux qui ont une soif insatiable de connaissances mais ils sont à l'image des startups, sans cesse dans l'expérimentation qu'ils soient seul ou plusieurs. Il y a d'ailleurs un tryptique qui revient souvent dans la communauté solarpunk : "Learn, Make, Teach". Apprendre, faire, enseigner. C'est un cercle vertueux qui tourne sur lui-même notamment grâce à l'effet Feynman. On a évoqué les makerspaces tout à l'heure, mais il y a aussi les fablabs, les hackerspaces, les repair cafés, les jardins partagés, les ateliers de réparation, etc. Tous ces lieux sont des espaces de partage de connaissances et de compétences qui ont une place omniprésente dans les sociétés solarpunks.
+J: Oui et c'est aussi pourquoi ils ne vivent pas seul. Mais tant qu'on y est, abordons un autre point important. Le rapport à la connaissance est très différente chez les solarpunks de ce que tu peux voir autour de toi. Ils sont très attachés à l'apprentissage, à la transmission des savoirs et à l'open-source. On peut les voir comme des autodidactes curieux qui ont une soif insatiable de connaissances mais ils sont à l'image des startups, sans cesse dans l'expérimentation qu'ils soient seul ou plusieurs. Car la meilleure façon d’apprendre c’est de faire. Il y a d'ailleurs un tryptique qui revient souvent dans la communauté solarpunk : "Learn, Make, Teach". Apprendre, faire, enseigner. C'est un cercle vertueux qui tourne sur lui-même notamment grâce à l'effet Feynman. On a évoqué les makerspaces tout à l'heure, mais il y a aussi les fablabs, les hackerspaces, les repair cafés, les jardins partagés, les ateliers de réparation, etc. Tous ces lieux sont des espaces de partage de connaissances et de compétences et il est difficile d'imaginer une société solarpunks sans ces endroits.
 
+P: Et tu fais comment tu as un métier qui n'a rien à voir avec tout ça ? Tu changes de métier ? Tu fais ça en plus de ton travail ? Faut bien payer les factures.
+
+J: Je me suis également posé ces questions et c'est ce que je te disais plus haut, à mon avis le solarpunk est difficilement concevable dans les villes. D'une part car il met l'humain au centre et que si on prend le temps de réfléchir combien d'entre-nous connaissent le prénom de leurs voisins ? D'autre part, car il me semble que le solarpunk nécessite un minimum de surfaces pour être viable sans qu'on le considère comme du greenwashing. Mais après tout, le solarpunk est un imaginaire et qui sait, peut-être que dans un futur lointain, l'ensemble des villes seront solarpunk. Mais c'est là où le solarpunk révèle ces limites et ce pourquoi il n'est clairement pas une réponse pour l'ensemble de l'humanité. Il y a des métiers qui ne font sens que dans les métropoles et ces derniers resteront localisé dans ces endroits. Il y en a aussi beaucoup d'autres qui ne nécessite pas de vivre en ville surtout avec Internet et cela permet de les désengorger ce qui n'est pas un mal. En tout cas dans ma tête, il est évident que ce style de vie nécessite une certaine liberté dans son emploi, qu'on puisse l'exercer soit sur place soit à distance. Sinon, c'est irréalisable.
+
+P: 
+
+ Si tu as le choix tu vas travailler pour ton Ikigai et pour la communauté vs travailler pour un nombre minoritaire d’actionnaires qui n’habitent même pas dans ton quartier.
+    Le système scolaire n’est pas construit pour trouver son Ikigai. Il n’y a qu’à voir le niveau des conseillers d’orientation. Il est l’inertie d’un système de plus en plus obsolète dans un monde qui change de plus en plus vite.
+    Il faut qu’on ralentisse pour trouver notre Ikigai personnel et il faut s’en donner le temps.
+    The solarpunk community is organized around knowledge and practice.
+        Les solarpunks croient dans l’intelligence collective.
+    “Le rêve ultime et le but pour tout le monde dans la vie c’est de pouvoir travailler dans le milieu de l’Ikigai. C’est là où tu fais ton meilleur job.  J’ai envie de vivre dans une ville où tout le monde où tout le monde a l’opportunité de contribuer ce a quoi il ou elle est fait pour.” - Xavier Damman
+    We must develop maker spaces where people with common or divergent interestes, whether woodworking, coding, 3D printing, machining arts, crafting, sewing, science, cooking, or biking even, can meet, socialize, and collaborate, to share knowledge, resources and just have fun. Maker spaces are just one of the many ways we can unite communities through solarpunk principles.
+    A world in which children grow up being taught about building electronic tech as well as food gardening and other skills, and people have come back around to appreciating artisans and craftspeople, from stonemasons and smithies, to dress makers and jewelers and everyone in between. This mix between artisans and tech is really inspiring.
+    If you have a garden and a library, you have everything you need.  Marcus Tullius Cicero
+    Le solarpunk c’est beaucoup la mise en commun. Mais dans un futur limité, les communs sont une nécessité.
+    **Do-it-yourself ethos** Although solarpunk is concerned with technology, it also embraces low-tech ways of living sustainably such as [gardening](https://en.wikipedia.org/wiki/Gardening), [permaculture](https://en.wikipedia.org/wiki/Permaculture), [regenerative design](https://en.wikipedia.org/wiki/Regenerative_design), [tool libraries](https://en.wikipedia.org/wiki/Tool_library), [maker spaces](https://en.wikipedia.org/wiki/Hackerspace), [open-source](https://en.wikipedia.org/wiki/Open_source), [positive psychology](https://en.wikipedia.org/wiki/Positive_psychology), [metacognition](https://en.wikipedia.org/wiki/Metacognition), and [do-it-yourself](https://en.wikipedia.org/wiki/Do-it-yourself) ethics. Its themes may reflect on [environmental philosophy](https://en.wikipedia.org/wiki/Environmental_philosophy) such as [bright green environmentalism](https://en.wikipedia.org/wiki/Bright_green_environmentalism) and [social ecology](https://en.wikipedia.org/wiki/Social_ecology_(Bookchin)), as well as [punk ideologies](https://en.wikipedia.org/wiki/Punk_ideologies) such as [anarchism](https://en.wikipedia.org/wiki/Anarchism), [socialism](https://en.wikipedia.org/wiki/Socialism), [anti-consumerism](https://en.wikipedia.org/wiki/Anti-consumerism), [anti-authoritarianism](https://en.wikipedia.org/wiki/Anti-authoritarianism), [anti-capitalism](https://en.wikipedia.org/wiki/Anti-capitalism), [civil rights](https://en.wikipedia.org/wiki/Civil_and_political_rights), [commoning](https://en.wikipedia.org/wiki/Commoning), and [decentralization](https://en.wikipedia.org/wiki/Decentralization).
 
 
 
@@ -137,10 +154,7 @@ On ajoute également à ce mélance une promotion de la culture de hacker comme 
     It derives its name from the cyberpunk genre, and all the other punks it has spawned. Real quick: there is steam punk which focused on the industrial revolution and steam-powered tech. It’s one of the most popular after cyberpunk. There is dieselpunk, focused on the designs of the interwar period. There is atompunk focused on atomic power, steelpunk, focus on the ate 20th century hardware. Stonepunk which is neolithic…
     
     Solarpunk is about “ingenuity, generativity, independance, and community. It’s suffixed by punk because it opposes our existing world. It creates local resilience, authorities be damned, from rooftop solar to guerilla gardening.
-    
-    It’s a speculative movement. It’s also a community of hackers.
-    
-    
+
     En embrassant un usage technologique et une organisation socio-économique raisonnée. Un monde qui incarne le meilleur de ce que l’humanité peut accomplir. Il imagine une humanité qui a surmonté les nombreux défis d’aujourd’hui c’est-à-dire le réchauffement climatique. On a donc des sociéts profitant de niveaux de vie élevé sans empiété sur les limites de la planete. Le recyclage, l’économie circulaire, les fortes communautés locales, le DIY sont autant d’élément mis en avant par le solarpunk.
     
     The solar is both literal and metaphorical. Literally it represents solar and other renewable energies. 
@@ -162,9 +176,7 @@ Tout en regardant vers l'avenir, le Solarpunk et le décolonialisme s'efforcent 
 En somme, l'association du Solarpunk au décolonialisme découle de leur recherche commune d'un avenir où la justice sociale, environnementale et économique est réalisée à travers la déconstruction des systèmes de pouvoir oppressifs et la création de sociétés plus équitables, durables et inclusives. Cette association souligne l'importance de revoir nos relations avec la technologie, l'environnement, et les uns avec les autres, dans un esprit de guérison et de réconciliation après des siècles de colonisation et d'exploitation.
 
 - **OPTIMISME, CAPITALISME, RESPECT DE LA NATURE & COMMUNAUTÉ DU PARTAGE**
-        
-    You are tired of the doom and gloom
-    
+
     Harmonie avec la nature : Cohabitation respectueuse avec l'environnement naturel.
     
     Urbanisme : Ville durable, agriculture urbaine, toits verts, parcs et espaces verts intégrés.
@@ -214,8 +226,6 @@ En somme, l'association du Solarpunk au décolonialisme découle de leur recherc
     The act of sharing is at the heart of solarpunk. There is happiness in sharing for oneself because you feel useful. Most of the time, you get more hapiness by sharing than by receiving. That’s exactly what I feel when I cook.
     
     The burden of changing the course of human and planet history is not entirely on individuals like us. Governments and corporations have also a big impact. Can they change?
-    
-    A world where no one know the first name of their neighbors
     
     The idea that the future is full of pain, war and everything. No one knows and certainly not the medias who are eager to spread each bit of negative news to grasp our attention.
     
@@ -322,35 +332,13 @@ En somme, l'association du Solarpunk au décolonialisme découle de leur recherc
     
 - **CONNAISSANCES, IKIGAI, INTELLIGENCE COLLECTIVE, DIY MAKERS & FARMING**
     
-    If you have a garden and a library, you have everything you need.  Marcus Tullius Cicero
-    
-    Si tu as le choix tu vas travailler pour ton Ikigai et pour la communauté vs travailler pour un nombre minoritaire d’actionnaires qui n’habitent même pas dans ton quartier.
-    
-    Le solarpunk c’est beaucoup la mise en commun. Mais dans un futur limité, les communs sont une nécessité.
-    
-    Le système scolaire n’est pas construit pour trouver son Ikigai. Il n’y a qu’à voir le niveau des conseillers d’orientation. Il est l’inertie d’un système de plus en plus obsolète dans un monde qui change de plus en plus vite.
-    
-    Il faut qu’on ralentisse pour trouver notre Ikigai personnel et il faut s’en donner le temps.
-    
-    **Do-it-yourself ethos** Although solarpunk is concerned with technology, it also embraces low-tech ways of living sustainably such as [gardening](https://en.wikipedia.org/wiki/Gardening), [permaculture](https://en.wikipedia.org/wiki/Permaculture), [regenerative design](https://en.wikipedia.org/wiki/Regenerative_design), [tool libraries](https://en.wikipedia.org/wiki/Tool_library), [maker spaces](https://en.wikipedia.org/wiki/Hackerspace), [open-source](https://en.wikipedia.org/wiki/Open_source), [positive psychology](https://en.wikipedia.org/wiki/Positive_psychology), [metacognition](https://en.wikipedia.org/wiki/Metacognition), and [do-it-yourself](https://en.wikipedia.org/wiki/Do-it-yourself) ethics. Its themes may reflect on [environmental philosophy](https://en.wikipedia.org/wiki/Environmental_philosophy) such as [bright green environmentalism](https://en.wikipedia.org/wiki/Bright_green_environmentalism) and [social ecology](https://en.wikipedia.org/wiki/Social_ecology_(Bookchin)), as well as [punk ideologies](https://en.wikipedia.org/wiki/Punk_ideologies) such as [anarchism](https://en.wikipedia.org/wiki/Anarchism), [socialism](https://en.wikipedia.org/wiki/Socialism), [anti-consumerism](https://en.wikipedia.org/wiki/Anti-consumerism), [anti-authoritarianism](https://en.wikipedia.org/wiki/Anti-authoritarianism), [anti-capitalism](https://en.wikipedia.org/wiki/Anti-capitalism), [civil rights](https://en.wikipedia.org/wiki/Civil_and_political_rights), [commoning](https://en.wikipedia.org/wiki/Commoning), and [decentralization](https://en.wikipedia.org/wiki/Decentralization).
-    
     Solarpunk is a future with a human face and dirt behind its ears.
     
-    The solarpunk community is organized around knowledge and practice.
-    
     IMHU, there is no solarpunk without the Internet.
-    
-    Les solarpunks croient dans l’intelligence collective.
-    
-    La meilleure façon d’apprendre c’est de faire.
-    
-    “Le rêve ultime et le but pour tout le monde dans la vie c’est de pouvoir travailler dans le milieu de l’Ikigai. C’est là où tu fais ton meilleur job.  J’ai envie de vivre dans une ville où tout le monde où tout le monde a l’opportunité de contribuer ce a quoi il ou elle est fait pour.” - Xavier Damman
-    
+
     Regenerating ecosystems ; futuristic permaculture farming ; mutual aid networks ; sustainable urban living.
     
     Solar punk agriculture usually make own of permaculture.
-        
-    La relation des solarpunk avec la connaissance.
     
     Oui mais ta machine a cafe faut bien la produire ennchine ? Il arrivera un moment ou on pourra telecharger un modele et l’imprimer avec une imprimante 3D et faire pousser son cafe grace a la technologie soi meme son café. Et puis de toute facon quand on se creuse la tête on trouve. Il faut être optimiste avant tout.
     
@@ -358,13 +346,10 @@ En somme, l'association du Solarpunk au décolonialisme découle de leur recherc
     
     Green tech: elicit plant (modifie l’adn des plantes pour qu’elles consomme moins d’eau), javelot (data pour le stockage de grains donc moins de perte), life (hydrogene vert dans la region de Nantes).
     
-    Guerilla gardening
-    
-    We must develop maker spaces where people with common or divergent interestes, whether woodworking, coding, 3D printing, machining arts, crafting, sewing, science, cooking, or biking even, can meet, socialize, and collaborate, to share knowledge, resources and just have fun. Maker spaces are just one of the many ways we can unite communities through solarpunk principles.
-    
-    A world in which children grow up being taught about building electronic tech as well as food gardening and other skills, and people have come back around to appreciating artisans and craftspeople, from stonemasons and smithies, to dress makers and jewelers and everyone in between. This mix between artisans and tech is really inspiring.
         
     I'm just finishing The Martian by Andy Weir (haven't seen the film) and I think the main character, Mark Watley is the perfect kind of person you'd want in a SolarPunk community. Expert botanist and a brilliant all-purpose electrician/mechanical engineer. 
+
+    La guérilla gardening (ou jardinage de guérilla en français) est une forme d'activisme écologique qui consiste à planter des fleurs, des légumes, des herbes, et des arbres sur des terrains abandonnés ou des espaces publics négligés sans la permission officielle des autorités. Cette pratique vise à transformer ces espaces délaissés en zones vertes, en jardins communautaires ou en espaces agréables et écologiques, souvent pour embellir la ville, créer des habitats pour la biodiversité, fournir de la nourriture, ou sensibiliser à l'agriculture urbaine et aux questions environnementales. Les guérilleros jardiniers agissent généralement de manière anonyme et souvent la nuit, pour planter et entretenir ces espaces sans être dérangés. Bien que techniquement illégale dans certains cas, du fait de l'utilisation non autorisée de la terre, la guérilla gardening est généralement perçue de manière positive en raison de ses contributions environnementales et sociales. La guérilla gardening illustre un désir de reprise de contrôle citoyen sur les espaces urbains, encourageant une vision plus verte et plus participative de l'aménagement des villes. Elle reflète des principes similaires à ceux du mouvement solarpunk, tels que la valorisation de la nature en milieu urbain, l'autonomie, et l'action directe pour un changement positif.
     
 - **GESTION DES ÉNERGIES VERTES, LE NUCLÉAIRE ET LA FUSION**
     
@@ -400,6 +385,8 @@ En somme, l'association du Solarpunk au décolonialisme découle de leur recherc
     Quand on créer un nouveau système, par rapport au système existant, quels sont les premiers utilisateurs de ce nouveau système ? Ce sont ceux qui on été exclus de l’ancien. Parce que pour eux ce ne sont pas des vitamines, it is a pain-killer. Si tu es journaliste que tu as déjà une colonne dans un grand journal. Au début de l’Internet, c’est pas toi qui va ouvrir ton blog.
     
     Shrink the footprint while being more happier
+
+    A world where no one know the first name of their neighbors
     
     Ce n’est pas une vision low-tech post effondrement de l’avenir. C’est le monde des amish avec quelques panneaux solaires.
     
@@ -417,7 +404,6 @@ En somme, l'association du Solarpunk au décolonialisme découle de leur recherc
 
     On construit sans cesse des immeubles pour loger des personnes dans des surfaces de plus en plus petite. Mais au final, cela fait maintenant plus de 10 ans que je vis en ville et je n’ai connu que le nom d’un seul voisin malgré que je me considère comme quelqu’un d’assez social. Aujourd’hui on évite nos voisins. La ville a ses qualités et il ne s’agit pas de la bannir de nos vie mais as-t-on réllement intérêt d’y vivre 90% du temps? Ne serions-nous pas plus heureux dans un habitat construit à notre image qui nous ressemble avec un cercle social qu’on apprécie tout autour de nous? La qualité est souvent préférable à la quantité.
 
-    
     Solarpunk means that we will have a better future if we fight for it if we demand it.
     Capitalism conflicts with solarpunk because it incentivizes individuals to extract more than they contribute at the expense of other people and the planet. Additionally, profit motives lead it to overproduction and planned obsolescence (iPhone pictures) which wastes resources for nothing. It’s considered incompatible because sustainability is a big centerpiece of the solarpunk ideology. Resources are consumed and replenished responsibly. Also, capitalism is considered to drive inequality among people.
     
@@ -440,10 +426,6 @@ En somme, l'association du Solarpunk au décolonialisme découle de leur recherc
     Documentary: Future by Design with Jacque Fresco
     
     Book: The Whole Building Handbook. How to Design Healthy, Efficient and Sustainable Buildings
-    
-    Youtube: Solarpunk Life 
-    
-    Youtube The Solarpunk Scene (Lindsay Jane)
     
     La contrainte libère.
     
