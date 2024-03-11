@@ -1,0 +1,189 @@
+{
+  "tasks": [
+    {
+      "command": "pnpm run dev",
+      "icon": {
+        "color": "terminal.ansiMagenta",
+        "id": "globe"
+      },
+      "label": "apps: api",
+      "options": {
+        "cwd": "${workspaceFolder}/apps/api"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run dev",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "icon": {
+        "color": "terminal.ansiMagenta",
+        "id": "globe"
+      },
+      "label": "apps: web",
+      "options": {
+        "cwd": "${workspaceFolder}/apps/web"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run lint",
+      "icon": {
+        "color": "terminal.ansiBlue",
+        "id": "debug-alt"
+      },
+      "label": "cmds: lint",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run test",
+      "icon": {
+        "color": "terminal.ansiBlue",
+        "id": "debug-alt"
+      },
+      "label": "cmds: test",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run typecheck",
+      "icon": {
+        "color": "terminal.ansiBlue",
+        "id": "debug-alt"
+      },
+      "label": "cmds: typecheck",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run build:packages",
+      "icon": {
+        "color": "terminal.ansiBlue",
+        "id": "debug-alt"
+      },
+      "label": "cmds: build:packages",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run test",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "debug-console"
+      },
+      "label": "tests: api",
+      "options": {
+        "cwd": "${workspaceFolder}/apps/api"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run test:packages",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "debug-console"
+      },
+      "label": "tests: packages",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run test",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "debug-console"
+      },
+      "label": "tests: power",
+      "options": {
+        "cwd": "${workspaceFolder}/apps/power"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "pnpm run test",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "debug-console"
+      },
+      "label": "tests: web",
+      "options": {
+        "cwd": "${workspaceFolder}/apps/web"
+      },
+      "presentation": {
+        "close": true,
+        "panel": "new",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    }
+  ],
+  "version": "2.0.0"
+}

@@ -1,7 +1,73 @@
 {
-  "eslint.workingDirectories": [
+  "commit-prompt.addAllByDefault": true,
+  "commit-prompt.autoAssignOpenedIssues": false,
+  "commit-prompt.scopes": [
     {
-      "mode": "auto"
+      "description": "Changes made on the api (adonis backend)",
+      "label": "api"
+    }, {
+      "description": "Changes impacting the entire project or not fitting a specific category",
+      "label": "global"
+    }, {
+      "description": "Changes made to a monorepo package (data, helpers, etc.)",
+      "label": "packages"
+    }, {
+      "description": "Changes made on the web app (nuxt)",
+      "label": "web"
     }
-  ]
+  ],
+  "commit-prompt.skipCommitBody": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.formatOnSave": false,
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "format/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" }
+  ],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "yaml", "toml"],
+  "eslint.workingDirectories": [{
+    "mode": "auto"
+  }],
+  "peacock.color": "#234e52",
+  "prettier.enable": false,
+  "references.preferredLocation": "peek",
+  "search.exclude": {
+    "**/.git": true,
+    "**/.output": true,
+    "**/.turbo": true,
+    "**/dist": true,
+    "**/pnpm-lock.yaml": true,
+    "**/turbo-test.log": true
+  },
+  "task.autoDetect": "off",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#327076",
+    "activityBar.background": "#327076",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#5a2655",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#327076",
+    "statusBar.background": "#234e52",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#327076",
+    "statusBarItem.remoteBackground": "#234e52",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#234e52",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#234e5299",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "args": ["run", "dev"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/apps/web",
+      "name": "Web",
+      "request": "launch",
+      "runtimeExecutable": "pnpm",
+      "type": "node"
+    },
+  ],
+  "version": "0.2.0"
+}
