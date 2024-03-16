@@ -467,3 +467,7 @@ Utiliser des copeaux de bois plutot que du polystyrène pour caler des objets da
 Le bois est un materiel durable 
 
 Il faut arreter de s’inquiéter de tout et d’etre passif et il faut passer a l’action et etre creatif
+
+Solarpunk recharge czrtouche bouteille imprimante 3D
+
+La campagne c'est pour les débrouillards mais la contrainte libère.
