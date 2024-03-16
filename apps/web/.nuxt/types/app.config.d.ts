@@ -6,7 +6,7 @@ import cfg1 from "/Users/lecoupa/Documents/Projects/thetinyhackers-turborepo/nod
 
 declare const inlineConfig = {
   "nuxt": {
-    "buildId": "2db4a70d-c686-4564-b066-b5d150e1e629"
+    "buildId": "5a626d22-b51f-471f-8202-85d40f999b72"
   },
   "ui": {
     "primary": "green",

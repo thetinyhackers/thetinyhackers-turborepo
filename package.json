@@ -6,10 +6,18 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "build": "turbo run build --cache-dir='.turbo'",
+    "build:apps": "turbo run build --filter='./apps/*' --cache-dir='.turbo'",
+    "build:packages": "turbo run build --filter='./packages/*' --cache-dir='.turbo'",
+    "dev": "pm2 start scripts/pm2-local.config.js && pm2 logs",
+    "lint": "turbo run lint --cache-dir='.turbo' --continue",
+    "lint:apps": "turbo run lint --filter='./apps/*' --cache-dir='.turbo' --continue",
+    "lint:force": "turbo run lint --force",
+    "lint:packages": "turbo run lint --filter='./packages/*' --cache-dir='.turbo'",
+    "typecheck": "turbo run typecheck --cache-dir='.turbo' --continue",
+    "typecheck:apps": "turbo run typecheck --filter='./apps/*' --cache-dir='.turbo' --continue",
+    "typecheck:force": "turbo run typecheck --force",
+    "typecheck:packages": "turbo run typecheck --filter='./packages/*' --cache-dir='.turbo''"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.6.4",

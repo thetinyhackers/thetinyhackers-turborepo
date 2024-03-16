@@ -354,9 +354,9 @@ declare module 'nuxt/schema' {
             },
 
             ui: {
-               title: string,
-
                description: string,
+
+               title: string,
 
                tags: Array<string>,
 
@@ -364,9 +364,9 @@ declare module 'nuxt/schema' {
 
                properties: {
                   icons: {
-                     title: string,
-
                      description: string,
+
+                     title: string,
 
                      tags: Array<string>,
 
@@ -374,13 +374,13 @@ declare module 'nuxt/schema' {
 
                      properties: {
                         search: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -388,13 +388,13 @@ declare module 'nuxt/schema' {
                         },
 
                         dark: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -402,13 +402,13 @@ declare module 'nuxt/schema' {
                         },
 
                         light: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -416,13 +416,13 @@ declare module 'nuxt/schema' {
                         },
 
                         external: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -430,13 +430,13 @@ declare module 'nuxt/schema' {
                         },
 
                         chevron: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -444,13 +444,13 @@ declare module 'nuxt/schema' {
                         },
 
                         hash: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -476,15 +476,15 @@ declare module 'nuxt/schema' {
                   },
 
                   primary: {
-                     type: string,
-
-                     title: string,
+                     default: string,
 
                      description: string,
 
-                     default: string,
-
                      required: Array<string>,
+
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -492,15 +492,15 @@ declare module 'nuxt/schema' {
                   },
 
                   gray: {
-                     type: string,
-
-                     title: string,
+                     default: string,
 
                      description: string,
 
-                     default: string,
-
                      required: Array<string>,
+
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -532,9 +532,9 @@ declare module 'nuxt/schema' {
             },
 
             seo: {
-               title: string,
-
                description: string,
+
+               title: string,
 
                tags: Array<string>,
 
@@ -542,13 +542,13 @@ declare module 'nuxt/schema' {
 
                properties: {
                   siteName: {
-                     type: string,
-
-                     title: string,
+                     default: Array<any>,
 
                      description: string,
 
-                     default: Array<any>,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -564,9 +564,9 @@ declare module 'nuxt/schema' {
             },
 
             header: {
-               title: string,
-
                description: string,
+
+               title: string,
 
                tags: Array<string>,
 
@@ -574,9 +574,9 @@ declare module 'nuxt/schema' {
 
                properties: {
                   logo: {
-                     title: string,
-
                      description: string,
+
+                     title: string,
 
                      tags: Array<string>,
 
@@ -584,13 +584,13 @@ declare module 'nuxt/schema' {
 
                      properties: {
                         light: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -598,13 +598,13 @@ declare module 'nuxt/schema' {
                         },
 
                         dark: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -612,13 +612,13 @@ declare module 'nuxt/schema' {
                         },
 
                         alt: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -638,13 +638,13 @@ declare module 'nuxt/schema' {
                   },
 
                   search: {
-                     type: string,
-
-                     title: string,
+                     default: boolean,
 
                      description: string,
 
-                     default: boolean,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -652,13 +652,13 @@ declare module 'nuxt/schema' {
                   },
 
                   colorMode: {
-                     type: string,
-
-                     title: string,
+                     default: boolean,
 
                      description: string,
 
-                     default: boolean,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -666,13 +666,13 @@ declare module 'nuxt/schema' {
                   },
 
                   links: {
-                     type: string,
-
-                     title: string,
+                     default: Array<any>,
 
                      description: string,
 
-                     default: Array<any>,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -704,9 +704,9 @@ declare module 'nuxt/schema' {
             },
 
             footer: {
-               title: string,
-
                description: string,
+
+               title: string,
 
                tags: Array<string>,
 
@@ -714,13 +714,13 @@ declare module 'nuxt/schema' {
 
                properties: {
                   credits: {
-                     type: string,
-
-                     title: string,
+                     default: string,
 
                      description: string,
 
-                     default: string,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -728,13 +728,13 @@ declare module 'nuxt/schema' {
                   },
 
                   colorMode: {
-                     type: string,
-
-                     title: string,
+                     default: boolean,
 
                      description: string,
 
-                     default: boolean,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -742,13 +742,13 @@ declare module 'nuxt/schema' {
                   },
 
                   links: {
-                     type: string,
-
-                     title: string,
+                     default: Array<any>,
 
                      description: string,
 
-                     default: Array<any>,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -772,9 +772,9 @@ declare module 'nuxt/schema' {
             },
 
             toc: {
-               title: string,
-
                description: string,
+
+               title: string,
 
                tags: Array<string>,
 
@@ -782,13 +782,13 @@ declare module 'nuxt/schema' {
 
                properties: {
                   title: {
-                     type: string,
-
-                     title: string,
+                     default: string,
 
                      description: string,
 
-                     default: string,
+                     title: string,
+
+                     type: string,
 
                      tags: Array<string>,
 
@@ -796,9 +796,9 @@ declare module 'nuxt/schema' {
                   },
 
                   bottom: {
-                     title: string,
-
                      description: string,
+
+                     title: string,
 
                      tags: Array<string>,
 
@@ -806,13 +806,13 @@ declare module 'nuxt/schema' {
 
                      properties: {
                         title: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -820,13 +820,13 @@ declare module 'nuxt/schema' {
                         },
 
                         edit: {
-                           type: string,
-
-                           title: string,
+                           default: string,
 
                            description: string,
 
-                           default: string,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 
@@ -834,13 +834,13 @@ declare module 'nuxt/schema' {
                         },
 
                         links: {
-                           type: string,
-
-                           title: string,
+                           default: Array<any>,
 
                            description: string,
 
-                           default: Array<any>,
+                           title: string,
+
+                           type: string,
 
                            tags: Array<string>,
 

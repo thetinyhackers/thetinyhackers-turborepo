@@ -48,7 +48,7 @@ declare module 'nitropack' {
     '/api/_content/query': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.10.3_rollup@3.29.4_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
     }
-    '/api/_content/cache.1710612648533.json': {
+    '/api/_content/cache.1710613838129.json': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.10.3_rollup@3.29.4_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/cache').default>>>>
     }
     '/api/_content/navigation/:qid/**:params': {
