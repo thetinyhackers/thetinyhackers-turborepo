@@ -2,22 +2,22 @@
 import type { NuxtError } from '#app'
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
-useSeoMeta({
-  title: 'Page not found',
-  description: 'We are sorry but this page could not be found.'
-})
-
 defineProps({
   error: {
+    required: true,
     type: Object as PropType<NuxtError>,
-    required: true
-  }
+  },
+})
+
+useSeoMeta({
+  description: 'We are sorry but this page could not be found.',
+  title: 'Page not found',
 })
 
 useHead({
   htmlAttrs: {
-    lang: 'en'
-  }
+    lang: 'en',
+  },
 })
 
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
@@ -44,7 +44,10 @@ provide('navigation', navigation)
     <Footer />
 
     <ClientOnly>
-      <LazyUContentSearch :files="files" :navigation="navigation" />
+      <LazyUContentSearch
+        :files="files"
+        :navigation="navigation"
+      />
     </ClientOnly>
 
     <UNotifications />

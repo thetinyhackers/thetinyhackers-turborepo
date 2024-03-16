@@ -1,17 +1,17 @@
 <script lang="ts" setup>
 defineOptions({
-  inheritAttrs: false
+  inheritAttrs: false,
 })
 
 defineProps({
-  title: {
-    type: String,
-    required: true
-  },
   description: {
+    required: true,
     type: String,
-    required: true
-  }
+  },
+  title: {
+    required: true,
+    type: String,
+  },
 })
 </script>
 
@@ -21,6 +21,7 @@ defineProps({
       <h1 class="text-8xl mb-4 text-white">
         {{ title }}
       </h1>
+
       <p class="text-5xl text-gray-200 leading-tight">
         {{ description }}
       </p>

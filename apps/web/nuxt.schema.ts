@@ -3,216 +3,245 @@ import { field, group } from '@nuxthq/studio/theme'
 export default defineNuxtSchema({
   appConfig: {
     ui: group({
-      title: 'UI',
       description: 'UI Customization.',
       icon: 'i-mdi-palette-outline',
+      title: 'UI',
+
       fields: {
         icons: group({
-          title: 'Icons',
           description: 'Manage icons used in UI Pro.',
           icon: 'i-mdi-application-settings-outline',
+          title: 'Icons',
+
           fields: {
             search: field({
-              type: 'icon',
-              title: 'Search Bar',
+              default: 'i-heroicons-magnifying-glass-20-solid',
               description: 'Icon to display in the search bar.',
               icon: 'i-mdi-magnify',
-              default: 'i-heroicons-magnifying-glass-20-solid'
-            }),
-            dark: field({
+              title: 'Search Bar',
               type: 'icon',
-              title: 'Dark mode',
+            }),
+
+            dark: field({
+              default: 'i-heroicons-moon-20-solid',
               description: 'Icon of color mode button for dark mode.',
               icon: 'i-mdi-moon-waning-crescent',
-              default: 'i-heroicons-moon-20-solid'
-            }),
-            light: field({
+              title: 'Dark mode',
               type: 'icon',
-              title: 'Light mode',
+            }),
+
+            light: field({
+              default: 'i-heroicons-sun-20-solid',
               description: 'Icon of color mode button for light mode.',
               icon: 'i-mdi-white-balance-sunny',
-              default: 'i-heroicons-sun-20-solid'
-            }),
-            external: field({
+              title: 'Light mode',
               type: 'icon',
-              title: 'External Link',
+            }),
+
+            external: field({
+              default: 'i-heroicons-arrow-up-right-20-solid',
               description: 'Icon for external link.',
               icon: 'i-mdi-arrow-top-right',
-              default: 'i-heroicons-arrow-up-right-20-solid'
-            }),
-            chevron: field({
+              title: 'External Link',
               type: 'icon',
-              title: 'Chevron',
+            }),
+
+            chevron: field({
+              default: 'i-heroicons-chevron-down-20-solid',
               description: 'Icon for chevron.',
               icon: 'i-mdi-chevron-down',
-              default: 'i-heroicons-chevron-down-20-solid'
-            }),
-            hash: field({
+              title: 'Chevron',
               type: 'icon',
-              title: 'Hash',
+            }),
+
+            hash: field({
+              default: 'i-heroicons-hashtag-20-solid',
               description: 'Icon for hash anchors.',
               icon: 'i-ph-hash',
-              default: 'i-heroicons-hashtag-20-solid'
-            })
-          }
+              title: 'Hash',
+              type: 'icon',
+            }),
+          },
         }),
+
         primary: field({
-          type: 'string',
-          title: 'Primary',
+          default: 'green',
           description: 'Primary color of your UI.',
           icon: 'i-mdi-palette-outline',
-          default: 'green',
-          required: ['sky', 'mint', 'rose', 'amber', 'violet', 'emerald', 'fuchsia', 'indigo', 'lime', 'orange', 'pink', 'purple', 'red', 'teal', 'yellow', 'green', 'blue', 'cyan', 'gray', 'white', 'black']
-        }),
-        gray: field({
+          required: ['sky', 'mint', 'rose', 'amber', 'violet', 'emerald', 'fuchsia', 'indigo', 'lime', 'orange', 'pink', 'purple', 'red', 'teal', 'yellow', 'green', 'blue', 'cyan', 'gray', 'white', 'black'],
+          title: 'Primary',
           type: 'string',
-          title: 'Gray',
+        }),
+
+        gray: field({
+          default: 'slate',
           description: 'Gray color of your UI.',
           icon: 'i-mdi-palette-outline',
-          default: 'slate',
-          required: ['slate', 'cool', 'zinc', 'neutral', 'stone']
-        })
-      }
+          required: ['slate', 'cool', 'zinc', 'neutral', 'stone'],
+          title: 'Gray',
+          type: 'string',
+        }),
+      },
     }),
+
     seo: group({
-      title: 'SEO',
       description: 'SEO configuration.',
       icon: 'i-ph-app-window',
+      title: 'SEO',
+
       fields: {
         siteName: field({
-          type: 'string',
-          title: 'Site Name',
+          default: [],
           description: 'Name used in ogSiteName and used as second part of your page title (My page title - Nuxt UI Pro).',
           icon: 'i-mdi-web',
-          default: []
-        })
+          title: 'Site Name',
+          type: 'string',
+        }),
       },
     }),
+
     header: group({
-      title: 'Header',
       description: 'Header configuration.',
       icon: 'i-mdi-page-layout-header',
+      title: 'Header',
+
       fields: {
         logo: group({
-          title: 'Logo',
           description: 'Header logo configuration.',
           icon: 'i-mdi-image-filter-center-focus-strong-outline',
+          title: 'Logo',
+
           fields: {
             light: field({
-              type: 'media',
-              title: 'Light Mode Logo',
+              default: '',
               description: 'Pick an image from your gallery.',
               icon: 'i-mdi-white-balance-sunny',
-              default: ''
-            }),
-            dark: field({
+              title: 'Light Mode Logo',
               type: 'media',
-              title: 'Dark Mode Logo',
+            }),
+
+            dark: field({
+              default: '',
               description: 'Pick an image from your gallery.',
               icon: 'i-mdi-moon-waning-crescent',
-              default: ''
+              title: 'Dark Mode Logo',
+              type: 'media',
             }),
+
             alt: field({
-              type: 'string',
-              title: 'Alt',
+              default: '',
               description: 'Alt to display for accessibility.',
               icon: 'i-mdi-alphabet-latin',
-              default: ''
-            })
-          }
+              title: 'Alt',
+              type: 'string',
+            }),
+          },
         }),
+
         search: field({
-          type: 'boolean',
-          title: 'Search Bar',
+          default: true,
           description: 'Hide or display the search bar.',
           icon: 'i-mdi-magnify',
-          default: true
-        }),
-        colorMode: field({
+          title: 'Search Bar',
           type: 'boolean',
-          title: 'Color Mode',
+        }),
+
+        colorMode: field({
+          default: true,
           description: 'Hide or display the color mode button in your header.',
           icon: 'i-mdi-moon-waning-crescent',
-          default: true
+          title: 'Color Mode',
+          type: 'boolean',
         }),
+
         links: field({
-          type: 'array',
-          title: 'Links',
+          default: [],
           description: 'Array of link object displayed in header.',
           icon: 'i-mdi-link-variant',
-          default: []
-        })
+          title: 'Links',
+          type: 'array',
+        }),
       },
     }),
+
     footer: group({
-      title: 'Footer',
       description: 'Footer configuration.',
       icon: 'i-mdi-page-layout-footer',
+      title: 'Footer',
+
       fields: {
         credits: field({
-          type: 'string',
-          title: 'Footer credits section',
+          default: '',
           description: 'Text to display as credits in the footer.',
           icon: 'i-mdi-circle-edit-outline',
-          default: ''
+          title: 'Footer credits section',
+          type: 'string',
         }),
+
         colorMode: field({
-          type: 'boolean',
-          title: 'Color Mode',
+          default: false,
           description: 'Hide or display the color mode button in the footer.',
           icon: 'i-mdi-moon-waning-crescent',
-          default: false
+          title: 'Color Mode',
+          type: 'boolean',
         }),
+
         links: field({
-          type: 'array',
-          title: 'Links',
+          default: [],
           description: 'Array of link object displayed in footer.',
           icon: 'i-mdi-link-variant',
-          default: []
-        })
-      }
+          title: 'Links',
+          type: 'array',
+        }),
+      },
     }),
+
     toc: group({
-      title: 'Table of contents',
       description: 'TOC configuration.',
       icon: 'i-mdi-table-of-contents',
+      title: 'Table of contents',
+
       fields: {
         title: field({
-          type: 'string',
-          title: 'Title',
+          default: '',
           description: 'Text to display as title of the main toc.',
           icon: 'i-mdi-format-title',
-          default: ''
+          title: 'Title',
+          type: 'string',
         }),
+
         bottom: group({
-          title: 'Bottom',
           description: 'Bottom TOC configuration.',
           icon: 'i-mdi-table-of-contents',
+          title: 'Bottom',
+
           fields: {
             title: field({
-              type: 'string',
-              title: 'Title',
+              default: '',
               description: 'Text to display as title of the bottom toc.',
               icon: 'i-mdi-format-title',
-              default: ''
-            }),
-            edit: field({
+              title: 'Title',
               type: 'string',
-              title: 'Edit Page Link',
+            }),
+
+            edit: field({
+              default: '',
               description: 'URL of your repository content folder.',
               icon: 'i-ph-note-pencil',
-              default: ''
+              title: 'Edit Page Link',
+              type: 'string',
             }),
+
             links: field({
-              type: 'array',
-              title: 'Links',
+              default: [],
               description: 'Array of link object displayed in bottom toc.',
               icon: 'i-mdi-link-variant',
-              default: []
-            })
-          }
-        })
-      }
-    })
-  }
+              title: 'Links',
+              type: 'array',
+            }),
+          },
+        }),
+      },
+    }),
+  },
 })

@@ -2,11 +2,11 @@
 import type { CustomAppConfig } from 'nuxt/schema'
 import type { Defu } from 'defu'
 import cfg0 from "/Users/lecoupa/Documents/Projects/thetinyhackers-turborepo/apps/web/app.config"
-import cfg1 from "/Users/lecoupa/Documents/Projects/thetinyhackers-turborepo/node_modules/.pnpm/@nuxt+ui-pro@1.0.2_nuxt@3.10.3_vite@5.1.6_vue@3.4.21/node_modules/@nuxt/ui-pro/app.config"
+import cfg1 from "/Users/lecoupa/Documents/Projects/thetinyhackers-turborepo/node_modules/.pnpm/@nuxt+ui-pro@1.0.2_nuxt@3.10.3_rollup@3.29.4_vite@5.1.6_vue@3.4.21/node_modules/@nuxt/ui-pro/app.config"
 
 declare const inlineConfig = {
   "nuxt": {
-    "buildId": "dev"
+    "buildId": "2db4a70d-c686-4564-b066-b5d150e1e629"
   },
   "ui": {
     "primary": "green",

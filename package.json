@@ -1,6 +1,10 @@
 {
   "name": "thetinyhackers-turborepo",
   "private": true,
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -8,11 +12,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "prettier": "3.2.5",
-    "turbo": "latest"
-  },
-  "packageManager": "pnpm@8.9.0",
-  "engines": {
-    "node": ">=18"
+    "@antfu/eslint-config": "2.6.4",
+    "eslint": "8.56.0",
+    "eslint-plugin-perfectionist": "2.5.0",
+    "eslint-plugin-sort-destructure-keys": "1.5.0",
+    "pm2": "5.3.1",
+    "turbo": "1.12.4",
+    "unbuild": "2.0.0"
   }
 }

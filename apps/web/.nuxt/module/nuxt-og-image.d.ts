@@ -2,10 +2,10 @@
 
 declare module 'nitropack' {
   interface NitroRouteRules {
-    ogImage?: false | import('../../../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.0.8_@vue+compiler-core@3.4.21_nuxt@3.10.3_postcss@8.4.35_ujpzzxufpzsgvqpmabzyr3xdba/node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
+    ogImage?: false | import('../../../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.0.8_@vue+compiler-core@3.4.21_nuxt@3.10.3_postcss@8.4.35_vahuier2japq3esuju7ndd4pxa/node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
   }
   interface NitroRouteConfig {
-    ogImage?: false | import('../../../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.0.8_@vue+compiler-core@3.4.21_nuxt@3.10.3_postcss@8.4.35_ujpzzxufpzsgvqpmabzyr3xdba/node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
+    ogImage?: false | import('../../../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.0.8_@vue+compiler-core@3.4.21_nuxt@3.10.3_postcss@8.4.35_vahuier2japq3esuju7ndd4pxa/node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
   }
 }
 export {}
