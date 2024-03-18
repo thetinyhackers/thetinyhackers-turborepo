@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import type { NavItem } from '@nuxt/content/dist/runtime/types'
 
+// State
 const navigation = inject<NavItem[]>('navigation', [])
 
+// Composables
 const { header } = useAppConfig()
 </script>
 
@@ -14,7 +16,7 @@ const { header } = useAppConfig()
       </template>
 
       <template v-else>
-        Nuxt UI Pro <UBadge
+        The Tiny Hackers <UBadge
           class="mb-0.5"
           label="Docs"
           variant="subtle"

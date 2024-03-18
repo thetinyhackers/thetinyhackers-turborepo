@@ -1,7 +1,7 @@
 export default defineAppConfig({
   footer: {
     colorMode: false,
-    credits: 'Copyright © 2023',
+    credits: `Copyright © ${new Date().getFullYear()}`,
     links: [{
       'aria-label': 'Nuxt Website',
       'icon': 'i-simple-icons-nuxtdotjs',
@@ -24,6 +24,7 @@ export default defineAppConfig({
       'to': 'https://github.com/nuxt/ui',
     }],
   },
+
   header: {
     colorMode: true,
     links: [{
@@ -39,9 +40,11 @@ export default defineAppConfig({
     },
     search: true,
   },
+
   seo: {
     siteName: 'Nuxt UI Pro - Docs template',
   },
+
   toc: {
     title: 'Table of Contents',
 
@@ -67,6 +70,7 @@ export default defineAppConfig({
       }],
     },
   },
+
   ui: {
     gray: 'slate',
     primary: 'green',

@@ -17,6 +17,16 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    '/api/search.json': { prerender: true },
+  },
+
+  typescript: {
+    strict: false,
+  },
+
+  // --> CSS, COMPONENTS, MODULES & PLUGINS <--
+
   modules: [
     '@nuxt/content',
     '@nuxt/fonts',
@@ -26,12 +36,17 @@ export default defineNuxtConfig({
     'nuxt-og-image',
   ],
 
-  routeRules: {
-    '/api/search.json': { prerender: true },
-  },
+  // --> TAGS & METATAGS <--
 
-  typescript: {
-    strict: false,
+  app: {
+    head: {
+      titleTemplate: '%pageTitle | The Companies API',
+      viewport: 'width=device-width,initial-scale=1',
+
+      link: [
+        { href: '/favicon.ico', rel: 'icon', sizes: 'any' },
+      ],
+    },
   },
 
   // --> MODULE CONFIGURATION <--

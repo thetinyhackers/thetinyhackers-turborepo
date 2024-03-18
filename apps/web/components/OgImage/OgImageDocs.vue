@@ -1,8 +1,10 @@
 <script lang="ts" setup>
+// Options
 defineOptions({
   inheritAttrs: false,
 })
 
+// Props
 defineProps({
   description: {
     required: true,

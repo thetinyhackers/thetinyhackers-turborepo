@@ -1,13 +1,9 @@
 <script setup lang="ts">
 import { withoutTrailingSlash } from 'ufo'
 
-definePageMeta({
-  layout: 'docs',
-})
-
+// Composables
 const route = useRoute()
 const { seo, toc } = useAppConfig()
-
 const { data: page } = await useAsyncData(route.path, () => queryContent(route.path).findOne())
 
 if (!page.value) {
@@ -18,11 +14,25 @@ if (!page.value) {
   })
 }
 
+// Computed
+const headline = computed(() => {
+  return findPageHeadline(page.value)
+})
+
+const links = computed(() => [toc?.bottom?.edit && {
+  icon: 'i-heroicons-pencil-square',
+  label: 'Edit this page',
+  target: '_blank',
+  to: `${toc.bottom.edit}/${page?.value?._file}`,
+}, ...(toc?.bottom?.links || [])].filter(Boolean))
+
+// AsyncData
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent()
   .where({ _extension: 'md', navigation: { $ne: false } })
   .only(['title', 'description', '_path'])
   .findSurround(withoutTrailingSlash(route.path)))
 
+// Seo
 useSeoMeta({
   description: page.value.description,
   ogDescription: page.value.description,
@@ -35,15 +45,6 @@ defineOgImage({
   description: page.value.description,
   title: page.value.title,
 })
-
-const headline = computed(() => findPageHeadline(page.value))
-
-const links = computed(() => [toc?.bottom?.edit && {
-  icon: 'i-heroicons-pencil-square',
-  label: 'Edit this page',
-  target: '_blank',
-  to: `${toc.bottom.edit}/${page?.value?._file}`,
-}, ...(toc?.bottom?.links || [])].filter(Boolean))
 </script>
 
 <template>

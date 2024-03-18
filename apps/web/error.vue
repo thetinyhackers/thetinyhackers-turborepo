@@ -2,6 +2,7 @@
 import type { NuxtError } from '#app'
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
+// Props
 defineProps({
   error: {
     required: true,
@@ -9,24 +10,24 @@ defineProps({
   },
 })
 
-useSeoMeta({
-  description: 'We are sorry but this page could not be found.',
-  title: 'Page not found',
+// AsyncData
+const { data: navigation } = await useAsyncData('navigation', () => {
+  return fetchContentNavigation()
 })
 
-useHead({
-  htmlAttrs: {
-    lang: 'en',
-  },
-})
-
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
   default: () => [],
   server: false,
 })
 
+// Provide
 provide('navigation', navigation)
+
+// Seo
+useSeoMeta({
+  description: 'We are sorry but this page could not be found.',
+  title: 'Page not found',
+})
 </script>
 
 <template>

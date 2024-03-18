@@ -1,32 +1,20 @@
 <script setup lang="ts">
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
+// Composables
 const { seo } = useAppConfig()
 
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+// AsyncData
+const { data: navigation } = await useAsyncData('navigation', () => {
+  return fetchContentNavigation()
+})
+
 const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
   default: () => [],
   server: false,
 })
 
-useHead({
-  htmlAttrs: {
-    lang: 'en',
-  },
-  link: [
-    {
-      href: '/favicon.ico',
-      rel: 'icon',
-    },
-  ],
-  meta: [
-    {
-      content: 'width=device-width, initial-scale=1',
-      name: 'viewport',
-    },
-  ],
-})
-
+// Seo
 useSeoMeta({
   ogImage: 'https://docs-template.nuxt.dev/social-card.png',
   ogSiteName: seo?.siteName,
@@ -35,6 +23,7 @@ useSeoMeta({
   twitterImage: 'https://docs-template.nuxt.dev/social-card.png',
 })
 
+// Provide
 provide('navigation', navigation)
 </script>
 
@@ -45,9 +34,17 @@ provide('navigation', navigation)
     <Header />
 
     <UMain>
-      <NuxtLayout>
-        <NuxtPage />
-      </NuxtLayout>
+      <UContainer>
+        <UPage>
+          <template #left>
+            <UAside>
+              <UNavigationTree :links="mapContentNavigation(navigation)" />
+            </UAside>
+          </template>
+
+          <NuxtPage />
+        </UPage>
+      </UContainer>
     </UMain>
 
     <Footer />

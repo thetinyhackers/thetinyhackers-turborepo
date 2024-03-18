@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// Composables
 const { footer } = useAppConfig()
 </script>
 
