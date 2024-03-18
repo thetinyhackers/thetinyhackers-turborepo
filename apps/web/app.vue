@@ -31,7 +31,7 @@ provide('navigation', navigation)
   <div>
     <NuxtLoadingIndicator />
 
-    <Header />
+    <LayoutHeader />
 
     <UMain>
       <UContainer>
@@ -47,7 +47,7 @@ provide('navigation', navigation)
       </UContainer>
     </UMain>
 
-    <Footer />
+    <LayoutFooter />
 
     <ClientOnly>
       <LazyUContentSearch

@@ -32,7 +32,7 @@ useSeoMeta({
 
 <template>
   <div>
-    <Header />
+    <LayoutHeader />
 
     <UMain>
       <UContainer>
@@ -42,7 +42,7 @@ useSeoMeta({
       </UContainer>
     </UMain>
 
-    <Footer />
+    <LayoutFooter />
 
     <ClientOnly>
       <LazyUContentSearch

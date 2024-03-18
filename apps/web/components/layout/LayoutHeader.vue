@@ -20,7 +20,7 @@ const logo = computed(() => ({
 </script>
 
 <template>
-  <UHeader>
+  <UHeader class="layout-header">
     <template #logo>
       <template v-if="logo.dark || logo.light">
         <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...logo }" />

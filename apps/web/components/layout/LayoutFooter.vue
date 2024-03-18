@@ -24,7 +24,7 @@ const links = computed(() => [{
 </script>
 
 <template>
-  <UFooter>
+  <UFooter class="layout-footer">
     <template #left>
       {{ `Copyright © ${new Date().getFullYear()}` }}
     </template>

@@ -46,7 +46,7 @@ useSeoMeta({
 })
 
 defineOgImage({
-  component: 'Docs',
+  component: 'LayoutOgImage',
   description: page.value.description,
   title: page.value.title,
 })
