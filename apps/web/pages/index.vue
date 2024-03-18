@@ -5,10 +5,8 @@ definePageMeta({
   layout: 'docs',
 })
 
-const route = useRoute()
 const { seo, toc } = useAppConfig()
-
-const { data: page } = await useAsyncData(route.path, () => queryContent(route.path).findOne())
+const { data: page } = await useAsyncData('welcome', () => queryContent('welcome').findOne())
 
 if (!page.value) {
   throw createError({
@@ -18,10 +16,10 @@ if (!page.value) {
   })
 }
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent()
+const { data: surround } = await useAsyncData(`welcome-surround`, () => queryContent()
   .where({ _extension: 'md', navigation: { $ne: false } })
   .only(['title', 'description', '_path'])
-  .findSurround(withoutTrailingSlash(route.path)))
+  .findSurround(withoutTrailingSlash('welcome')))
 
 useSeoMeta({
   description: page.value.description,
