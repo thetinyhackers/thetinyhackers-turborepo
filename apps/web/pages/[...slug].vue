@@ -3,7 +3,7 @@ import { withoutTrailingSlash } from 'ufo'
 
 // Composables
 const route = useRoute()
-const { seo, toc } = useAppConfig()
+const { seo } = useAppConfig()
 const { data: page } = await useAsyncData(route.path, () => queryContent(route.path).findOne())
 
 if (!page.value) {
@@ -19,12 +19,17 @@ const headline = computed(() => {
   return findPageHeadline(page.value)
 })
 
-const links = computed(() => [toc?.bottom?.edit && {
+const links = computed(() => [{
   icon: 'i-heroicons-pencil-square',
   label: 'Edit this page',
   target: '_blank',
-  to: `${toc.bottom.edit}/${page?.value?._file}`,
-}, ...(toc?.bottom?.links || [])].filter(Boolean))
+  to: `https://github.com/thetinyhackers/thetinyhackers-turborepo/edit/main/apps/web/content/${page?.value?._file}`,
+}, {
+  icon: 'i-heroicons-star',
+  label: 'Star on GitHub',
+  target: '_blank',
+  to: 'https://github.com/nuxt/ui',
+}].filter(Boolean))
 
 // AsyncData
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent()
@@ -67,18 +72,12 @@ defineOgImage({
       <UContentSurround :surround="surround" />
     </UPageBody>
 
-    <template
-      v-if="page.toc !== false"
-      #right
-    >
+    <template #right>
       <UContentToc
         :links="page.body?.toc?.links"
-        :title="toc?.title"
+        title="Table of Contents"
       >
-        <template
-          v-if="toc?.bottom"
-          #bottom
-        >
+        <template #bottom>
           <div
             class="hidden lg:block space-y-6"
             :class="{ '!mt-6': page.body?.toc?.links?.length }"
@@ -90,7 +89,7 @@ defineOgImage({
 
             <UPageLinks
               :links="links"
-              :title="toc.bottom.title"
+              title="Community"
             />
           </div>
         </template>

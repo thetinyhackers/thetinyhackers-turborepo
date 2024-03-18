@@ -4,15 +4,26 @@ import type { NavItem } from '@nuxt/content/dist/runtime/types'
 // State
 const navigation = inject<NavItem[]>('navigation', [])
 
-// Composables
-const { header } = useAppConfig()
+// Computed
+const links = computed(() => [{
+  'aria-label': 'Docs template on GitHub',
+  'icon': 'i-simple-icons-github',
+  'target': '_blank',
+  'to': 'https://github.com/nuxt-ui-pro/docs',
+}])
+
+const logo = computed(() => ({
+  alt: '',
+  dark: '',
+  light: '',
+}))
 </script>
 
 <template>
   <UHeader>
     <template #logo>
-      <template v-if="header?.logo?.dark || header?.logo?.light">
-        <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...header?.logo }" />
+      <template v-if="logo.dark || logo.light">
+        <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...logo }" />
       </template>
 
       <template v-else>
@@ -24,29 +35,23 @@ const { header } = useAppConfig()
       </template>
     </template>
 
-    <template
-      v-if="header?.search"
-      #center
-    >
+    <template #center>
       <UContentSearchButton class="hidden lg:flex" />
     </template>
 
     <template #right>
       <UContentSearchButton
-        v-if="header?.search"
         class="lg:hidden"
         :label="null"
       />
 
-      <UColorModeButton v-if="header?.colorMode" />
+      <UColorModeButton />
 
-      <template v-if="header?.links">
-        <UButton
-          v-for="(link, index) of header.links"
-          :key="index"
-          v-bind="{ color: 'gray', variant: 'ghost', ...link }"
-        />
-      </template>
+      <UButton
+        v-for="(link, index) of links"
+        :key="index"
+        v-bind="{ color: 'gray', variant: 'ghost', ...link }"
+      />
     </template>
 
     <template #panel>
