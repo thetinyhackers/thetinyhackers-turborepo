@@ -35,7 +35,7 @@ function onBubbleClick(event: MouseEvent) {
     class="base-quote w-full flex justify-center my-10 not-prose"
     :class="{ 'flex-row-reverse': reverse }"
   >
-    <BaseCharacter
+    <Character
       v-if="character"
       :character="character"
       class="mt-1 self-start flex-initial"

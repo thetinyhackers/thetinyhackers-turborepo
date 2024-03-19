@@ -38,6 +38,10 @@ provide('navigation', navigation)
         <UPage>
           <template #left>
             <UAside>
+              <template #top>
+                <UContentSearchButton />
+              </template>
+
               <UNavigationTree :links="mapContentNavigation(navigation)" />
             </UAside>
           </template>

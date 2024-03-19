@@ -35,10 +35,6 @@ const logo = computed(() => ({
       </template>
     </template>
 
-    <template #center>
-      <UContentSearchButton class="hidden lg:flex" />
-    </template>
-
     <template #right>
       <UContentSearchButton
         class="lg:hidden"
