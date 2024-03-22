@@ -62,7 +62,7 @@ function onBubbleClick(event: MouseEvent) {
           // --> BACKGROUNDS <--
 
           'bg-white dark:bg-gray-900': !reverse,
-          'bg-gray-100 dark:bg-gray-800': reverse,
+          'bg-gray-50 dark:bg-gray-800': reverse,
 
           // --> SIZES <--
 
