@@ -62,9 +62,6 @@ importers:
       nuxt-og-image:
         specifier: 2.2.4
         version: 2.2.4(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.21)(nuxt@3.10.3)(postcss@8.4.35)(rollup@4.13.0)(vite@5.1.6)(vue@3.4.21)(webpack@5.90.3)
-      snarkdown:
-        specifier: ^2.0.0
-        version: 2.0.0
       vue-tsc:
         specifier: 2.0.6
         version: 2.0.6(typescript@5.3.3)
@@ -10992,10 +10989,6 @@ packages:
 
   /smooth-dnd@0.12.1:
     resolution: {integrity: sha512-Dndj/MOG7VP83mvzfGCLGzV2HuK1lWachMtWl/Iuk6zV7noDycIBnflwaPuDzoaapEl3Pc4+ybJArkkx9sxPZg==}
-    dev: true
-
-  /snarkdown@2.0.0:
-    resolution: {integrity: sha512-MgL/7k/AZdXCTJiNgrO7chgDqaB9FGM/1Tvlcenenb7div6obaDATzs16JhFyHHBGodHT3B7RzRc5qk8pFhg3A==}
     dev: true
 
   /socket.io-client@4.7.5:
