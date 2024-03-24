@@ -13,6 +13,15 @@
         "dist/**"
       ]
     },
+    "generate": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        ".nuxt/**",
+        "dist/**"
+      ]
+    },
     "lint": {},
     "start": {
       "dependsOn": [
