@@ -15,13 +15,13 @@ const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
 })
 
 // Seo
-useSeoMeta({
-  ogImage: 'https://docs-template.nuxt.dev/social-card.png',
-  ogSiteName: seo?.siteName,
-  titleTemplate: `%s - ${seo?.siteName}`,
-  twitterCard: 'summary_large_image',
-  twitterImage: 'https://docs-template.nuxt.dev/social-card.png',
-})
+// useSeoMeta({
+//   ogImage: 'https://docs-template.nuxt.dev/social-card.png',
+//   ogSiteName: seo?.siteName,
+//   titleTemplate: `%s - ${seo?.siteName}`,
+//   twitterCard: 'summary_large_image',
+//   twitterImage: 'https://docs-template.nuxt.dev/social-card.png',
+// })
 
 // Provide
 provide('navigation', navigation)

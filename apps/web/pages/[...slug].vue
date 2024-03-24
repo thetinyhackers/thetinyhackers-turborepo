@@ -45,11 +45,11 @@ useSeoMeta({
   title: page.value.title,
 })
 
-defineOgImage({
-  component: 'LayoutOgImage',
-  description: page.value.description,
-  title: page.value.title,
-})
+// defineOgImage({
+//   component: 'LayoutOgImage',
+//   description: page.value.description,
+//   title: page.value.title,
+// })
 </script>
 
 <template>

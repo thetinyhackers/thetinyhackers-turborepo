@@ -18,16 +18,6 @@ defineProps({
     type: String as PropType<BaseQuoteSize>,
   },
 })
-
-// Events
-const emit = defineEmits<{
-  click: [event: MouseEvent]
-}>()
-
-// Listeners
-function onBubbleClick(event: MouseEvent) {
-  emit('click', event)
-}
 </script>
 
 <template>
@@ -71,7 +61,6 @@ function onBubbleClick(event: MouseEvent) {
           'px-6 py-1 text-base leading-7 sm:text-lg sm:leading-8': size === 'base',
 
         }"
-        @click="onBubbleClick"
       >
         <div class="flex items-center">
           <div
