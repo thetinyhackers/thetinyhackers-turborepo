@@ -10,6 +10,7 @@
     "build:apps": "turbo run build --filter='./apps/*' --cache-dir='.turbo'",
     "build:packages": "turbo run build --filter='./packages/*' --cache-dir='.turbo'",
     "dev": "pm2 start scripts/pm2-local.config.js && pm2 logs",
+    "generate": "turbo run generate --cache-dir='.turbo'",
     "lint": "turbo run lint --cache-dir='.turbo' --continue",
     "lint:apps": "turbo run lint --filter='./apps/*' --cache-dir='.turbo' --continue",
     "lint:force": "turbo run lint --force",
