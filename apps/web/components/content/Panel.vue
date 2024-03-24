@@ -18,13 +18,13 @@ defineProps({
 
 <template>
   <div
-    class="base-panel relative p-2 overflow-hidden flex shadow-sm flex-col h-80 border rounded-xl text-center dark:border-black dark:shadow-inner not-prose"
+    class="base-panel relative p-2 overflow-hidden flex shadow-sm flex-col h-80 border rounded-xl text-center dark:border-black not-prose"
     :class="{
       'flex-col-reverse	': reverse,
     }"
   >
     <div
-      class="flex-initial z-10 leading-6 bg-gray-50 border-gray-900 text-black rounded-xl border opacity-85 p-3 pb-4"
+      class="flex-initial z-10 leading-6 shadow bg-gray-50 border-gray-900 text-black rounded-xl border opacity-85 p-3 pb-4"
     >
       <slot />
     </div>
@@ -46,7 +46,7 @@ defineProps({
 
     <img
       v-if="landscape"
-      class="absolute bottom-0 right-0 left-0 -z-10 object-cover"
+      class="absolute select-none bottom-0 right-0 left-0 -z-10 object-cover"
       loading="lazy"
       :src="`/images/content/Panel/${landscape}.png`"
     >
