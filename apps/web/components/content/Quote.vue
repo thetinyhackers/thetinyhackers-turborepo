@@ -123,11 +123,6 @@ function onBubbleClick(event: MouseEvent) {
   color: var(--indigo-800) !important;
 }
 
-.base-quote strong {
-  font-weight: 600 !important;
-  text-decoration: underline !important;
-}
-
 .base-quote p {
   margin: 1rem 0 !important;
 }
