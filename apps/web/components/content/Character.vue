@@ -3,11 +3,11 @@
 const props = defineProps({
   character: {
     default: 'anthony',
-    type: String as PropType<BaseCharacterCharacter>,
+    type: String as PropType<CharacterCharacter>,
   },
   size: {
     default: 'base',
-    type: String as PropType<BaseCharacterSize>,
+    type: String as PropType<CharacterSize>,
   },
 })
 
@@ -39,7 +39,7 @@ const width = computed(() => {
 <template>
   <img
     :alt="character"
-    class="base-character pointer-events-none select-none w-13"
+    class="character pointer-events-none select-none w-13"
     :class="{
       // --> WIDTH <--
 
@@ -58,6 +58,6 @@ const width = computed(() => {
       'w-24': width === 24,
     }"
     loading="lazy"
-    :src="`/images/bases/BaseCharacter/${character}.svg`"
+    :src="`/images/content/Character/${character}.svg`"
   >
 </template>
