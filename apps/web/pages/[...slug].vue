@@ -53,7 +53,12 @@ useSeoMeta({
 </script>
 
 <template>
-  <UPage>
+  <UPage
+    :ui="{
+      center: { base: 'lg:col-span-10 xl:col-span-8' },
+      right: 'hidden xl:block',
+    }"
+  >
     <UPageHeader
       :description="page.description"
       :headline="headline"
