@@ -35,7 +35,14 @@ provide('navigation', navigation)
 
     <UMain>
       <UContainer>
-        <UPage>
+        <UPage
+          :ui="{
+            left: 'lg:col-span-3 xl:col-span-2',
+            center: {
+              base: 'lg:col-span-7 xl:col-span-8',
+            },
+          }"
+        >
           <template #left>
             <UAside>
               <template #top>

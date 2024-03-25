@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 // Props
-defineProps({
+const props = defineProps({
   character: {
     default: 'power',
     type: String as PropType<PanelCharacter>,
@@ -14,6 +14,26 @@ defineProps({
     type: Boolean,
   },
 })
+
+// Composables
+const route = useRoute()
+
+// Computed
+const landscapePath = computed(() => {
+  const params = route.params.slug || []
+
+  let path = '/images/panels'
+
+  if (!params.length) {
+    path += `/index`
+  }
+  else {
+    for (const param of params)
+      path += `/${param}`
+  }
+
+  return `${path}/${props.landscape}.png`
+})
 </script>
 
 <template>
@@ -21,17 +41,15 @@ defineProps({
     class="base-panel relative p-2 overflow-hidden flex shadow flex-col h-72 md:h-80 lg:h-72 xl:h-80 border border-black rounded-xl text-center not-prose"
     :class="{ 'flex-col-reverse	': reverse }"
   >
-    <div
-      class="flex-initial z-10 leading-6 shadow bg-white border-gray-900 text-black rounded-xl border opacity-85 p-3 pb-4"
-    >
+    <div class="flex-initial z-10 text-sm sm:text-base leading-6 shadow bg-white border-gray-900 text-black rounded-xl border opacity-85 p-3 pb-4">
       <slot />
     </div>
 
     <img
-      v-if="landscape"
+      v-if="landscape && landscapePath"
       class="absolute select-none bottom-0 right-0 left-0 -z-10 object-cover"
       loading="lazy"
-      :src="`/images/content/Panel/${landscape}.png`"
+      :src="landscapePath"
     >
   </div>
 </template>
