@@ -3,8 +3,14 @@ import { withoutTrailingSlash } from 'ufo'
 
 // Composables
 const route = useRoute()
+const { locale } = useI18n()
 const { seo } = useAppConfig()
-const { data: page } = await useAsyncData(route.path, () => queryContent(route.path).findOne())
+
+const { data: page } = await useAsyncData(route.path, () => {
+  const path = locale.value === 'en' ? route.path : route.path.split(`/{locale}`)[1]
+
+  return queryContent(path).findOne()
+})
 
 if (!page.value) {
   throw createError({

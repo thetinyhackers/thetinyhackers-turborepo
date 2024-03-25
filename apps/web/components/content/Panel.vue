@@ -17,6 +17,7 @@ const props = defineProps({
 
 // Composables
 const route = useRoute()
+const { locale } = useI18n()
 
 // Computed
 const landscapePath = computed(() => {
@@ -42,7 +43,15 @@ const landscapePath = computed(() => {
     :class="{ 'flex-col-reverse	': reverse }"
   >
     <div class="flex-initial z-10 text-sm sm:text-base leading-6 shadow bg-white border-gray-900 text-black rounded-xl border opacity-85 p-3 pb-4">
-      <slot />
+      <slot
+        v-if="locale === 'en'"
+        name="en"
+      />
+
+      <slot
+        v-if="locale === 'fr'"
+        name="fr"
+      />
     </div>
 
     <img
