@@ -52,6 +52,11 @@ const landscapePath = computed(() => {
         v-if="locale === 'fr'"
         name="fr"
       />
+
+      <slot
+        v-if="locale === 'ja'"
+        name="ja"
+      />
     </div>
 
     <img

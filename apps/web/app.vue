@@ -125,6 +125,12 @@ provide('navigation', navigation)
         "mindset": "L'état d'esprit"
       },
       "search": "Rechercher…"
+   },
+   "ja": {
+      "navigation": {
+        "mindset": "考え方"
+      },
+      "search": "検索…"
    }
 }
 </i18n>

@@ -107,6 +107,9 @@ useSeoMeta({
   },
   "fr": {
     "editPage": "Modifier cette page"
-  }
+  },
+  "ja": {
+    "editPage": "このページを編集する"
+  },
 }
 </i18n>
