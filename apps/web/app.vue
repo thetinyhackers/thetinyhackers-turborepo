@@ -6,7 +6,7 @@ const { locale, t } = useI18n()
 // const { seo } = useAppConfig()
 
 // AsyncData
-const navigation = await useAsyncData('navigation', () => {
+const navigation = await useAsyncData(`navigation-${locale.value}`, () => {
   return queryContent()
     .where({ navigation: { $ne: false } })
     .only([`title-${locale.value}`, '_path'])

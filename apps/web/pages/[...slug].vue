@@ -31,11 +31,11 @@ const title = computed(() => {
 })
 
 // AsyncData
-const { data: page } = await useAsyncData(routePathWithoutLocale.value, () => {
+const { data: page } = await useAsyncData(route.path, () => {
   return queryContent(routePathWithoutLocale.value).findOne()
 })
 
-const surround = await useAsyncData(`${routePathWithoutLocale.value}-surround`, () => queryContent()
+const surround = await useAsyncData(`${route.path}-surround`, () => queryContent()
   .where({ _extension: 'md', navigation: { $ne: false } })
   .only([`title-${locale.value}`, `description-${locale.value}`, '_path'])
   .findSurround(withoutTrailingSlash(routePathWithoutLocale.value)))
