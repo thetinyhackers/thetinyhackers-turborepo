@@ -40,7 +40,6 @@ const surround = await useAsyncData(`${routePathWithoutLocale.value}-surround`, 
   .only([`title-${locale.value}`, `description-${locale.value}`, '_path'])
   .findSurround(withoutTrailingSlash(routePathWithoutLocale.value)))
   .then((result) => {
-  // Process and format the fetched data
     return result.data.value.map((item) => {
       return item
         ? {
