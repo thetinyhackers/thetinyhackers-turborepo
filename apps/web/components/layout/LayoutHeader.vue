@@ -9,7 +9,7 @@ const links = computed(() => [{
   'aria-label': 'Docs template on GitHub',
   'icon': 'i-simple-icons-github',
   'target': '_blank',
-  'to': 'https://github.com/nuxt-ui-pro/docs',
+  'to': 'https://github.com/thetinyhackers/thetinyhackers-turborepo',
 }])
 
 const logo = computed(() => ({

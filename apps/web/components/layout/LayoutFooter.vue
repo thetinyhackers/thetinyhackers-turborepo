@@ -1,25 +1,15 @@
 <script setup lang="ts">
 // Computed
 const links = computed(() => [{
-  'aria-label': 'Nuxt Website',
-  'icon': 'i-simple-icons-nuxtdotjs',
-  'target': '_blank',
-  'to': 'https://nuxt.com',
-}, {
-  'aria-label': 'Nuxt UI on Discord',
-  'icon': 'i-simple-icons-discord',
-  'target': '_blank',
-  'to': 'https://discord.com/invite/ps2h6QT',
-}, {
-  'aria-label': 'Nuxt on X',
+  'aria-label': 'The Tiny Hackers on X',
   'icon': 'i-simple-icons-x',
   'target': '_blank',
-  'to': 'https://x.com/nuxt_js',
+  'to': 'https://x.com/thetinyhackers',
 }, {
-  'aria-label': 'Nuxt UI on GitHub',
+  'aria-label': 'The Tiny Hackers on GitHub',
   'icon': 'i-simple-icons-github',
   'target': '_blank',
-  'to': 'https://github.com/nuxt/ui',
+  'to': 'https://github.com/thetinyhackers/thetinyhackers-turborepo',
 }])
 </script>
 

@@ -28,7 +28,7 @@ const links = computed(() => [{
   icon: 'i-heroicons-star',
   label: 'Star on GitHub',
   target: '_blank',
-  to: 'https://github.com/nuxt/ui',
+  to: 'https://github.com/thetinyhackers/thetinyhackers-turborepo',
 }].filter(Boolean))
 
 // AsyncData
