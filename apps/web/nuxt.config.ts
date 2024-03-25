@@ -50,6 +50,11 @@ export default defineNuxtConfig({
 
   // --> MODULE CONFIGURATION <--
 
+  colorMode: {
+    fallback: 'dark',
+    preference: 'dark',
+  },
+
   i18n: {
     defaultLocale: 'en',
     langDir: './locales/',
