@@ -65,7 +65,7 @@ useSeoMeta({
       <ContentRenderer
         v-if="page.body"
 
-        class=" grid grid-cols-1 gap-6 md:grid-cols-2"
+        class=" grid grid-cols-1 gap-6 sm:grid-cols-2"
         :value="page"
       />
 

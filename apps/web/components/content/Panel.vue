@@ -18,7 +18,7 @@ defineProps({
 
 <template>
   <div
-    class="base-panel relative p-2 overflow-hidden flex shadow flex-col h-80 border border-black rounded-xl text-center not-prose"
+    class="base-panel relative p-2 overflow-hidden flex shadow flex-col h-72 md:h-80 lg:h-72 xl:h-80 border border-black rounded-xl text-center not-prose"
     :class="{ 'flex-col-reverse	': reverse }"
   >
     <div
