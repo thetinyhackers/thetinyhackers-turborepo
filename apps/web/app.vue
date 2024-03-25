@@ -83,7 +83,7 @@ provide('navigation', navigation)
           <template #left>
             <UAside>
               <template #top>
-                <UContentSearchButton />
+                <UContentSearchButton :label="t('search')" />
               </template>
 
               <UNavigationTree :links="mapContentNavigation(navigation)" />
@@ -115,14 +115,16 @@ provide('navigation', navigation)
 <i18n lang="json">
 {
    "en": {
-      "navigation": {
-        "mindset": "The Mindset"
-      }
+     "navigation": {
+       "mindset": "The Mindset"
+      },
+      "search": "Search…"
    },
    "fr": {
       "navigation": {
         "mindset": "L'état d'esprit"
-      }
+      },
+      "search": "Rechercher…"
    }
 }
 </i18n>
