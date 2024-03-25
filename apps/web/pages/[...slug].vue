@@ -3,7 +3,7 @@ import { withoutTrailingSlash } from 'ufo'
 
 // Composables
 const route = useRoute()
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 const { seo } = useAppConfig()
 
 // Computed
@@ -17,7 +17,7 @@ const headline = computed(() => {
 
 const links = computed(() => [{
   icon: 'i-simple-icons-github',
-  label: 'Edit this page',
+  label: t('editPage'),
   target: '_blank',
   to: `https://github.com/thetinyhackers/thetinyhackers-turborepo/edit/main/apps/web/content/${page?.value?._file}`,
 }].filter(Boolean))
@@ -96,3 +96,14 @@ useSeoMeta({
     </UPageBody>
   </UPage>
 </template>
+
+<i18n lang="json">
+{
+  "en": {
+    "editPage": "Edit this page"
+  },
+  "fr": {
+    "editPage": "Modifier cette page"
+  }
+}
+</i18n>
