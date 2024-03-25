@@ -20,7 +20,7 @@ const links = computed(() => [{
   label: t('editPage'),
   target: '_blank',
   to: `https://github.com/thetinyhackers/thetinyhackers-turborepo/edit/main/apps/web/content/${page?.value?._file}`,
-}].filter(Boolean))
+}])
 
 const routePathWithoutLocale = computed(() => {
   return locale.value === 'en' ? route.path : route.path.split(`/${locale.value}`)[1]
@@ -35,12 +35,14 @@ const { data: page } = await useAsyncData(route.path, () => {
   return queryContent(routePathWithoutLocale.value).findOne()
 })
 
-const surround = await useAsyncData(`${route.path}-surround`, () => queryContent()
-  .where({ _extension: 'md', navigation: { $ne: false } })
-  .only([`title-${locale.value}`, `description-${locale.value}`, '_path'])
-  .findSurround(withoutTrailingSlash(routePathWithoutLocale.value)))
+const surround = await useAsyncData(`${route.path}-surround`, () => {
+  return queryContent()
+    .where({ _extension: 'md', navigation: { $ne: false } })
+    .only([`title-${locale.value}`, `description-${locale.value}`, '_path'])
+    .findSurround(withoutTrailingSlash(routePathWithoutLocale.value))
+})
   .then((result) => {
-    return result.data.value?.map((item) => {
+    return result.data.value.map((item) => {
       return item
         ? {
             _path: locale.value === 'en' ? item._path : `/${locale.value}${item._path}`,
