@@ -35,20 +35,22 @@ const { data: page } = await useAsyncData(routePathWithoutLocale.value, () => {
   return queryContent(routePathWithoutLocale.value).findOne()
 })
 
-const { data: surround } = await useAsyncData(`${routePathWithoutLocale.value}-surround`, () => queryContent()
+const surround = await useAsyncData(`${routePathWithoutLocale.value}-surround`, () => queryContent()
   .where({ _extension: 'md', navigation: { $ne: false } })
   .only([`title-${locale.value}`, `description-${locale.value}`, '_path'])
   .findSurround(withoutTrailingSlash(routePathWithoutLocale.value)))
-
-const surroundFormatted = surround.value?.map((item) => {
-  if (item) {
-    return {
-      _path: locale.value === 'en' ? item._path : `/${locale.value}${item._path}`,
-      description: item[`description-${locale.value}`],
-      title: item[`title-${locale.value}`],
-    }
-  }
-})
+  .then((result) => {
+  // Process and format the fetched data
+    return result.data.value.map((item) => {
+      return item
+        ? {
+            _path: locale.value === 'en' ? item._path : `/${locale.value}${item._path}`,
+            description: item[`description-${locale.value}`],
+            title: item[`title-${locale.value}`],
+          }
+        : undefined
+    })
+  })
 
 if (!page.value) {
   throw createError({
@@ -90,9 +92,9 @@ useSeoMeta({
         :value="page"
       />
 
-      <hr v-if="surroundFormatted?.length">
+      <hr v-if="surround?.length">
 
-      <UContentSurround :surround="surroundFormatted" />
+      <UContentSurround :surround="surround" />
     </UPageBody>
   </UPage>
 </template>
