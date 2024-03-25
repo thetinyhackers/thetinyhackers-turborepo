@@ -2,7 +2,7 @@
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
 // Composables
-const { seo } = useAppConfig()
+// const { seo } = useAppConfig()
 
 // AsyncData
 const { data: navigation } = await useAsyncData('navigation', () => {
@@ -35,14 +35,7 @@ provide('navigation', navigation)
 
     <UMain>
       <UContainer>
-        <UPage
-          :ui="{
-            left: 'lg:col-span-3 xl:col-span-2',
-            center: {
-              base: 'lg:col-span-7 xl:col-span-8',
-            },
-          }"
-        >
+        <UPage>
           <template #left>
             <UAside>
               <template #top>

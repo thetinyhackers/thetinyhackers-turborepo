@@ -6,10 +6,48 @@ const route = useRoute()
 const { locale } = useI18n()
 const { seo } = useAppConfig()
 
-const { data: page } = await useAsyncData(route.path, () => {
-  const path = locale.value === 'en' ? route.path : route.path.split(`/{locale}`)[1]
+// Computed
+const description = computed(() => {
+  return page.value[`description-${locale.value}`]
+})
 
-  return queryContent(path).findOne()
+const headline = computed(() => {
+  return findPageHeadline(page.value)
+})
+
+const links = computed(() => [{
+  icon: 'i-simple-icons-github',
+  label: 'Edit this page',
+  target: '_blank',
+  to: `https://github.com/thetinyhackers/thetinyhackers-turborepo/edit/main/apps/web/content/${page?.value?._file}`,
+}].filter(Boolean))
+
+const routePathWithoutLocale = computed(() => {
+  return locale.value === 'en' ? route.path : route.path.split(`/${locale.value}`)[1]
+})
+
+const title = computed(() => {
+  return page.value[`title-${locale.value}`]
+})
+
+// AsyncData
+const { data: page } = await useAsyncData(routePathWithoutLocale.value, () => {
+  return queryContent(routePathWithoutLocale.value).findOne()
+})
+
+const { data: surround } = await useAsyncData(`${routePathWithoutLocale.value}-surround`, () => queryContent()
+  .where({ _extension: 'md', navigation: { $ne: false } })
+  .only([`title-${locale.value}`, `description-${locale.value}`, '_path'])
+  .findSurround(withoutTrailingSlash(routePathWithoutLocale.value)))
+
+const surroundFormatted = surround.value?.map((item) => {
+  if (item) {
+    return {
+      _path: locale.value === 'en' ? item._path : `/${locale.value}${item._path}`,
+      description: item[`description-${locale.value}`],
+      title: item[`title-${locale.value}`],
+    }
+  }
 })
 
 if (!page.value) {
@@ -20,56 +58,28 @@ if (!page.value) {
   })
 }
 
-// Computed
-const headline = computed(() => {
-  return findPageHeadline(page.value)
-})
-
-const links = computed(() => [{
-  icon: 'i-heroicons-pencil-square',
-  label: 'Edit this page',
-  target: '_blank',
-  to: `https://github.com/thetinyhackers/thetinyhackers-turborepo/edit/main/apps/web/content/${page?.value?._file}`,
-}, {
-  icon: 'i-heroicons-star',
-  label: 'Star on GitHub',
-  target: '_blank',
-  to: 'https://github.com/thetinyhackers/thetinyhackers-turborepo',
-}].filter(Boolean))
-
-// AsyncData
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent()
-  .where({ _extension: 'md', navigation: { $ne: false } })
-  .only(['title', 'description', '_path'])
-  .findSurround(withoutTrailingSlash(route.path)))
-
 // Seo
 useSeoMeta({
-  description: page.value.description,
-  ogDescription: page.value.description,
-  ogTitle: `${page.value.title} - ${seo?.siteName}`,
-  title: page.value.title,
+  description,
+  ogDescription: description.value,
+  ogTitle: `${title.value} - ${seo?.siteName}`,
+  title: title.value,
 })
 
 // defineOgImage({
 //   component: 'LayoutOgImage',
-//   description: page.value.description,
-//   title: page.value.title,
+//   description: description.value,
+//   title: title.value,
 // })
 </script>
 
 <template>
-  <UPage
-    :ui="{
-      center: { base: 'lg:col-span-10 xl:col-span-8' },
-      right: 'hidden xl:block',
-    }"
-  >
+  <UPage>
     <UPageHeader
-      :description="page.description"
+      :description="description"
       :headline="headline"
-      :links="page.links"
-      :title="page.title"
+      :links="links"
+      :title="title"
     />
 
     <UPageBody prose>
@@ -80,33 +90,9 @@ useSeoMeta({
         :value="page"
       />
 
-      <hr v-if="surround?.length">
+      <hr v-if="surroundFormatted?.length">
 
-      <UContentSurround :surround="surround" />
+      <UContentSurround :surround="surroundFormatted" />
     </UPageBody>
-
-    <template #right>
-      <UContentToc
-        :links="page.body?.toc?.links"
-        title="Table of Contents"
-      >
-        <template #bottom>
-          <div
-            class="hidden lg:block space-y-6"
-            :class="{ '!mt-6': page.body?.toc?.links?.length }"
-          >
-            <UDivider
-              v-if="page.body?.toc?.links?.length"
-              type="dashed"
-            />
-
-            <UPageLinks
-              :links="links"
-              title="Community"
-            />
-          </div>
-        </template>
-      </UContentToc>
-    </template>
   </UPage>
 </template>

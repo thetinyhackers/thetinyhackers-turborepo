@@ -69,18 +69,15 @@ export default defineNuxtConfig({
       useCookie: true,
     },
 
-    locales: [
-      {
-        code: 'en',
-        file: 'en.ts',
-        iso: 'en',
-      },
-      {
-        code: 'fr',
-        file: 'fr.ts',
-        iso: 'fr',
-      },
-    ],
+    locales: [{
+      code: 'en',
+      file: 'en.ts',
+      iso: 'en',
+    }, {
+      code: 'fr',
+      file: 'fr.ts',
+      iso: 'fr',
+    }],
 
   },
 

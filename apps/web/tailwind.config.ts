@@ -14,6 +14,7 @@ export default <Partial<Config>>{
         15: '3.75rem',
         17: '4.25rem',
         18: '4.5rem',
+        88: '22rem',
       },
       width: {
         9: '2.25rem',
@@ -22,6 +23,7 @@ export default <Partial<Config>>{
         15: '3.75rem',
         17: '4.25rem',
         18: '4.5rem',
+        88: '22rem',
       },
     },
   },

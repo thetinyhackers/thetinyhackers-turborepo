@@ -39,7 +39,7 @@ const landscapePath = computed(() => {
 
 <template>
   <div
-    class="base-panel relative p-2 overflow-hidden flex shadow flex-col h-72 md:h-80 lg:h-72 xl:h-80 border border-black rounded-xl text-center not-prose"
+    class="base-panel relative p-2 overflow-hidden flex shadow flex-col h-72 md:h-80 lg:h-72 xl:h-88 border border-black rounded-xl text-center not-prose"
     :class="{ 'flex-col-reverse	': reverse }"
   >
     <div class="flex-initial z-10 text-sm sm:text-base leading-6 shadow bg-white border-gray-900 text-black rounded-xl border opacity-85 p-3 pb-4">
