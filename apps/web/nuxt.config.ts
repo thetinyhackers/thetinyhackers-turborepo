@@ -89,10 +89,5 @@ export default defineNuxtConfig({
       file: 'ja.ts',
       iso: 'ja',
     }],
-
-  },
-
-  ui: {
-    icons: ['heroicons', 'simple-icons'],
   },
 })

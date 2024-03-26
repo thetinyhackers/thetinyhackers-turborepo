@@ -23,5 +23,8 @@
     "nuxt": "3.10.3",
     "nuxt-og-image": "2.2.4",
     "vue-tsc": "2.0.6"
+  },
+  "dependencies": {
+    "@iconify-json/flagpack": "^1.1.14"
   }
 }

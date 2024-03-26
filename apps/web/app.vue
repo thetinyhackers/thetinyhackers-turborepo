@@ -6,52 +6,27 @@ const { locale, t } = useI18n()
 // const { seo } = useAppConfig()
 
 // AsyncData
-const navigation = await useAsyncData(`navigation-${locale.value}`, () => {
-  return queryContent()
-    .where({ navigation: { $ne: false } })
-    .only([`title-${locale.value}`, '_path'])
-    .find()
+const navigation = computed(() => {
+  const localeRoute = locale.value === 'en' ? '' : `/${locale.value}`
+
+  return [
+    {
+      _path: locale.value === 'en' ? '/' : `/${locale.value}`,
+      title: t('navigation.index'),
+    },
+    {
+      _path: `${localeRoute}/mindset`,
+      children: [{
+        _path: `${localeRoute}/mindset/learning`,
+        title: t('navigation.learning'),
+      }, {
+        _path: `${localeRoute}/mindset/solarpunk`,
+        title: t('navigation.solarpunk'),
+      }],
+      title: t('navigation.mindset'),
+    },
+  ]
 })
-  .then((result) => {
-    return result.data.value
-      .map((item) => {
-        return item
-          ? {
-              _path: locale.value === 'en' ? item._path : `/${locale.value}${item._path}`,
-              title: item[`title-${locale.value}`],
-            }
-          : undefined
-      })
-      .reduce((accumulator, item) => {
-        const group = locale.value === 'en'
-          ? item._path.split('/')[1]
-          : item._path.replace(`/${locale.value}/`, '').split('/')[0]
-
-        if (!group) {
-          accumulator.push(item)
-        }
-        else {
-          let parent = accumulator.find(parent => parent._path === `/${group}`)
-
-          if (!parent) {
-            parent = {
-              _path: `/${group}`,
-              children: [],
-              title: t(`navigation.${group}`),
-            }
-
-            accumulator.push(parent)
-          }
-
-          parent.children.push({
-            _path: item._path,
-            title: item.title,
-          })
-        }
-
-        return accumulator
-      }, [])
-  })
 
 const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
   default: () => [],
@@ -73,7 +48,10 @@ provide('navigation', navigation)
 
 <template>
   <div>
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator
+      color="#5a67d8"
+      :throttle="0"
+    />
 
     <LayoutHeader />
 
@@ -83,10 +61,13 @@ provide('navigation', navigation)
           <template #left>
             <UAside>
               <template #top>
-                <UContentSearchButton :label="t('search')" />
+                <LayoutLocaleSelector />
               </template>
 
-              <UNavigationTree :links="mapContentNavigation(navigation)" />
+              <UNavigationTree
+                class="-mt-2"
+                :links="mapContentNavigation(navigation)"
+              />
             </UAside>
           </template>
 
@@ -116,19 +97,28 @@ provide('navigation', navigation)
 {
    "en": {
      "navigation": {
-       "mindset": "The Mindset"
+       "index": "Introduction to Tiny Hackers",
+       "learning": "Learning how to learn",
+       "mindset": "The Mindset",
+       "solarpunk": "The Art of Solarpunk"
       },
       "search": "Search…"
    },
    "fr": {
       "navigation": {
-        "mindset": "L'état d'esprit"
+        "index": "Introduction aux Tiny Hackers",
+        "learning": "Apprendre à apprendre",
+        "mindset": "L'état d'esprit",
+        "solarpunk": "L'art du Solarpunk"
       },
       "search": "Rechercher…"
    },
    "ja": {
       "navigation": {
-        "mindset": "考え方"
+        "index": "小さなハッカーの紹介",
+        "learning": "学び方を学ぶ",
+        "mindset": "考え方",
+        "solarpunk": "ソーラーパンクの芸術"
       },
       "search": "検索…"
    }
