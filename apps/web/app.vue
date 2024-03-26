@@ -4,28 +4,58 @@ import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
 // Composables
 const { locale, t } = useI18n()
 // const { seo } = useAppConfig()
+const navigation = ref()
+
+// Computed
+const navigationFormatted = computed(() => {
+  return navigation.value.data
+    .map((item) => {
+      return item
+        ? {
+            _path: locale.value === 'en' ? item._path : `/${locale.value}${item._path === '/' ? '' : item._path}`,
+            title: item[`title-${locale.value}`],
+          }
+        : undefined
+    })
+    .reduce((accumulator, item) => {
+      const group = locale.value === 'en'
+        ? item._path.split('/')[1]
+        : item._path.replace(`/${locale.value}/`, '').split('/')[0]
+
+      if (!group) {
+        accumulator.push(item)
+      }
+      else {
+        let parent = accumulator.find(parent => parent._path === `/${group}`)
+
+        if (!parent) {
+          parent = {
+            _path: `/${group}`,
+            children: [],
+            title: t(`navigation.${group}`),
+          }
+
+          accumulator.push(parent)
+        }
+
+        parent.children.push({
+          _path: item._path,
+          title: item.title,
+        })
+      }
+
+      return accumulator
+    }, [])
+})
 
 // AsyncData
-const navigation = computed(() => {
-  const localeRoute = locale.value === 'en' ? '' : `/${locale.value}`
-
-  return [
-    {
-      _path: locale.value === 'en' ? '/' : `/${locale.value}`,
-      title: t('navigation.index'),
-    },
-    {
-      _path: `${localeRoute}/mindset`,
-      children: [{
-        _path: `${localeRoute}/mindset/learning`,
-        title: t('navigation.learning'),
-      }, {
-        _path: `${localeRoute}/mindset/solarpunk`,
-        title: t('navigation.solarpunk'),
-      }],
-      title: t('navigation.mindset'),
-    },
-  ]
+navigation.value = await useAsyncData(`navigation-${locale.value}`, () => {
+  return queryContent()
+    .where({ navigation: { $ne: false } })
+    .only([`title-${locale.value}`, '_path'])
+    .find()
+}, {
+  watch: [locale],
 })
 
 const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
@@ -43,7 +73,7 @@ const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
 // })
 
 // Provide
-provide('navigation', navigation)
+provide('navigation', navigationFormatted)
 </script>
 
 <template>
@@ -66,7 +96,7 @@ provide('navigation', navigation)
 
               <UNavigationTree
                 class="-mt-2"
-                :links="mapContentNavigation(navigation)"
+                :links="mapContentNavigation(navigationFormatted)"
               />
             </UAside>
           </template>
@@ -81,7 +111,7 @@ provide('navigation', navigation)
     <ClientOnly>
       <LazyUContentSearch
         :files="files"
-        :navigation="navigation"
+        :navigation="navigationFormatted"
       />
     </ClientOnly>
 
@@ -97,28 +127,20 @@ provide('navigation', navigation)
 {
    "en": {
      "navigation": {
-       "index": "Introduction to Tiny Hackers",
-       "learning": "Learning how to learn",
-       "mindset": "The Mindset",
-       "solarpunk": "The Art of Solarpunk"
+       "mindset": "The Mindset"
+
       },
       "search": "Search…"
    },
    "fr": {
       "navigation": {
-        "index": "Introduction aux Tiny Hackers",
-        "learning": "Apprendre à apprendre",
-        "mindset": "L'état d'esprit",
-        "solarpunk": "L'art du Solarpunk"
+        "mindset": "L'état d'esprit"
       },
       "search": "Rechercher…"
    },
    "ja": {
       "navigation": {
-        "index": "小さなハッカーの紹介",
-        "learning": "学び方を学ぶ",
-        "mindset": "考え方",
-        "solarpunk": "ソーラーパンクの芸術"
+        "mindset": "考え方"
       },
       "search": "検索…"
    }
