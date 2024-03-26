@@ -23,7 +23,7 @@ const links = computed(() => [{
 }])
 
 const routePathWithoutLocale = computed(() => {
-  return locale.value === 'en' ? route.path : route.path.split(`/${locale.value}`)[1]
+  return withoutTrailingSlash(locale.value === 'en' ? route.path : route.path.split(`/${locale.value}`)[1])
 })
 
 const title = computed(() => {
@@ -31,18 +31,18 @@ const title = computed(() => {
 })
 
 // AsyncData
-const { data: page } = await useAsyncData(route.path, () => {
+const { data: page } = await useAsyncData(withoutTrailingSlash(route.path), () => {
   return queryContent(routePathWithoutLocale.value).findOne()
 })
 
-const surround = await useAsyncData(`${route.path}-surround`, () => {
+const surround = await useAsyncData(`${withoutTrailingSlash(route.path)}-surround`, () => {
   return queryContent()
     .where({ _extension: 'md', navigation: { $ne: false } })
     .only([`title-${locale.value}`, `description-${locale.value}`, '_path'])
-    .findSurround(withoutTrailingSlash(routePathWithoutLocale.value))
+    .findSurround(routePathWithoutLocale.value)
 })
   .then((result) => {
-    return result.data.value.map((item) => {
+    return result.data.value?.map((item) => {
       return item
         ? {
             _path: locale.value === 'en' ? item._path : `/${locale.value}${item._path}`,
@@ -88,7 +88,6 @@ useSeoMeta({
     <UPageBody prose>
       <ContentRenderer
         v-if="page.body"
-
         class=" grid grid-cols-1 gap-6 sm:grid-cols-2"
         :value="page"
       />
