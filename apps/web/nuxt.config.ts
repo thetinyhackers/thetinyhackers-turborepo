@@ -39,7 +39,9 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxthq/studio',
     '@nuxtjs/i18n',
+    '@nuxtjs/sitemap',
     'nuxt-og-image',
+    'nuxt-simple-robots',
   ],
 
   // --> TAGS & METATAGS <--
@@ -93,5 +95,11 @@ export default defineNuxtConfig({
       file: 'ja.ts',
       iso: 'ja',
     }],
+  },
+
+  sitemap: {
+    sources: [
+      '/api/__sitemap__/urls',
+    ],
   },
 })

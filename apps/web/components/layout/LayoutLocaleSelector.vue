@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // Composables
 const { locale } = useI18n()
+const { availableLocales } = useAppConfig()
 const switchLocalePath = useSwitchLocalePath()
 const router = useRouter()
 
@@ -24,31 +25,14 @@ const flagIcon = computed(() => {
     return 'i-flagpack-jp'
 })
 
-const locales = computed(() => {
-  return [
-    [{
-      click: () => changeLocale('en'),
-      icon: 'i-flagpack-us',
-      id: 'en',
-      label: localeLabels.en,
-    }, {
-      click: () => changeLocale('es'),
-      icon: 'i-flagpack-es',
-      id: 'es',
-      label: localeLabels.es,
-    }, {
-      click: () => changeLocale('fr'),
-      icon: 'i-flagpack-fr',
-      id: 'fr',
-      label: localeLabels.fr,
-    }, {
-      click: () => changeLocale('ja'),
-      icon: 'i-flagpack-jp',
-      id: 'ja',
-      label: localeLabels.ja,
-    }].filter(item => item.id !== locale.value),
-  ]
-})
+const locales = computed(() => ([
+  availableLocales.map(locale => ({
+    click: () => changeLocale(locale),
+    icon: `i-flagpack-${locale}`,
+    id: locale,
+    label: localeLabels[locale],
+  })),
+]))
 
 // Helpers
 function changeLocale(newLocale: string) {

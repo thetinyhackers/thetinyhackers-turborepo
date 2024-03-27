@@ -3,7 +3,7 @@
 defineProps({
   character: {
     default: 'power',
-    type: String as PropType<BaseCharacterCharacter>,
+    type: String as PropType<CharacterCharacter>,
   },
   clickable: {
     default: false,
@@ -15,7 +15,7 @@ defineProps({
   },
   size: {
     default: 'base',
-    type: String as PropType<BaseQuoteSize>,
+    type: String as PropType<QuoteSize>,
   },
 })
 </script>

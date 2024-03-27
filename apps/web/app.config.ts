@@ -1,4 +1,6 @@
 export default defineAppConfig({
+  availableLocales: ['en', 'es', 'fr', 'ja'],
+
   seo: {
     siteName: 'The Tiny Hackers',
   },
