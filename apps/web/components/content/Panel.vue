@@ -43,25 +43,7 @@ const landscapePath = computed(() => {
     :class="{ 'flex-col-reverse': !reverse }"
   >
     <div class="flex-initial z-10 text-sm sm:text-base leading-6 shadow bg-white border-gray-900 text-black rounded-xl border opacity-85 p-3 pb-4">
-      <slot
-        v-if="locale === 'en'"
-        name="en"
-      />
-
-      <slot
-        v-if="locale === 'es'"
-        name="es"
-      />
-
-      <slot
-        v-if="locale === 'fr'"
-        name="fr"
-      />
-
-      <slot
-        v-if="locale === 'ja'"
-        name="ja"
-      />
+      <slot :name="locale" />
     </div>
 
     <img
