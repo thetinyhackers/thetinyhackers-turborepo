@@ -132,6 +132,12 @@ provide('navigation', navigationFormatted)
       },
       "search": "Search…"
    },
+    "es": {
+        "navigation": {
+          "mindset": "La mentalidad"
+        },
+        "search": "Buscar…"
+    },
    "fr": {
       "navigation": {
         "mindset": "L'état d'esprit"

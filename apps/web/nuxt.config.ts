@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/fr', '/ja'],
+      routes: ['/es', '/fr', '/ja'],
     },
   },
 
@@ -80,6 +80,10 @@ export default defineNuxtConfig({
       code: 'en',
       file: 'en.ts',
       iso: 'en',
+    }, {
+      code: 'es',
+      file: 'es.ts',
+      iso: 'es',
     }, {
       code: 'fr',
       file: 'fr.ts',

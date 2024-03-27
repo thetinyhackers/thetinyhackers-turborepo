@@ -4,18 +4,14 @@ import type { NavItem } from '@nuxt/content/dist/runtime/types'
 // State
 const navigation = inject<NavItem[]>('navigation', [])
 
-// Computed
-const links = computed(() => [{
-  'aria-label': 'Docs template on GitHub',
-  'icon': 'i-simple-icons-github',
-  'target': '_blank',
-  'to': 'https://github.com/thetinyhackers/thetinyhackers-turborepo',
-}])
+// Composables
+const { socialLinks } = useAppConfig()
 
+// Computed
 const logo = computed(() => ({
-  alt: '',
-  dark: '',
-  light: '',
+  alt: 'The Tiny Hackers',
+  dark: 'thetinyhackers_dark.svg',
+  light: 'thetinyhackers_light.svg',
 }))
 </script>
 
@@ -23,11 +19,12 @@ const logo = computed(() => ({
   <UHeader class="layout-header">
     <template #logo>
       <template v-if="logo.dark || logo.light">
-        <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...logo }" />
+        <UColorModeImage v-bind="{ class: 'h-8 w-auto', ...logo }" />
       </template>
 
       <template v-else>
-        The Tiny Hackers <UBadge
+        The Tiny Hackers
+        <UBadge
           class="mb-0.5"
           label="Docs"
           variant="subtle"
@@ -36,15 +33,12 @@ const logo = computed(() => ({
     </template>
 
     <template #right>
-      <UContentSearchButton
-        class="lg:hidden"
-        :label="null"
-      />
+      <UContentSearchButton :label="null" />
 
       <UColorModeButton />
 
       <UButton
-        v-for="(link, index) of links"
+        v-for="(link, index) of socialLinks"
         :key="index"
         v-bind="{ color: 'gray', variant: 'ghost', ...link }"
       />
