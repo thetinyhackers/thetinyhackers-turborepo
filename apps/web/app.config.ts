@@ -1,5 +1,10 @@
 export default defineAppConfig({
-  availableLocales: ['en', 'es', 'fr', 'ja'],
+  availableLocales: [
+    { code: 'en', icon: 'i-flagpack-us' },
+    { code: 'es', icon: 'i-flagpack-es' },
+    { code: 'fr', icon: 'i-flagpack-fr' },
+    { code: 'ja', icon: 'i-flagpack-jp' },
+  ],
 
   seo: {
     siteName: 'The Tiny Hackers',

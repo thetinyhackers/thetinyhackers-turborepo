@@ -9,9 +9,9 @@ export default defineSitemapEventHandler(async (event) => {
     .only(['_path'])
     .find()
 
-  for (const locale of availableLocales) {
+  for (const availableLocale of availableLocales) {
     for (const article of articles)
-      urls.push(`/${locale}${article._path}`)
+      urls.push(`/${availableLocale.code}${article._path}`)
   }
 
   return urls

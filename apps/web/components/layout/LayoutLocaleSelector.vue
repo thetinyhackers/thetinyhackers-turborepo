@@ -15,22 +15,18 @@ const localeLabels = {
 
 // Computed
 const flagIcon = computed(() => {
-  if (locale.value === 'en')
-    return 'i-flagpack-us'
-  else if (locale.value === 'es')
-    return 'i-flagpack-es'
-  else if (locale.value === 'fr')
-    return 'i-flagpack-fr'
-  else if (locale.value === 'ja')
-    return 'i-flagpack-jp'
+  for (const availableLocale of availableLocales) {
+    if (availableLocale.code === locale.value)
+      return availableLocale.icon
+  }
 })
 
 const locales = computed(() => ([
   availableLocales.map(locale => ({
-    click: () => changeLocale(locale),
-    icon: `i-flagpack-${locale}`,
+    click: () => changeLocale(locale.code),
+    icon: locale.icon,
     id: locale,
-    label: localeLabels[locale],
+    label: localeLabels[locale.code],
   })),
 ]))
 
