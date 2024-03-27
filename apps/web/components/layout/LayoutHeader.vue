@@ -10,8 +10,8 @@ const { socialLinks } = useAppConfig()
 // Computed
 const logo = computed(() => ({
   alt: 'The Tiny Hackers',
-  dark: 'thetinyhackers_dark.svg',
-  light: 'thetinyhackers_light.svg',
+  dark: '/thetinyhackers_dark.svg',
+  light: '/thetinyhackers_light.svg',
 }))
 </script>
 
