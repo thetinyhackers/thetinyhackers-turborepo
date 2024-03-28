@@ -12,7 +12,7 @@ const description = computed(() => {
 })
 
 const headline = computed(() => {
-  return findPageHeadline(page.value)
+  return findPageHeadline(page.value).toLowerCase()
 })
 
 const links = computed(() => [{
@@ -80,7 +80,7 @@ useSeoMeta({
   <UPage>
     <UPageHeader
       :description="description"
-      :headline="headline"
+      :headline="headline ? t(`globals.navigation.${headline}`) : ''"
       :links="links"
       :title="title"
     />

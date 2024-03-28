@@ -1,3 +1,7 @@
 export default {
-  globals: {},
+  globals: {
+    navigation: {
+      mindset: 'La mentalità',
+    },
+  },
 }

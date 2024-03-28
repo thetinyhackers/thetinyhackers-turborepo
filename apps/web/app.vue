@@ -32,7 +32,7 @@ const navigationFormatted = computed(() => {
           parent = {
             _path: `/${group}`,
             children: [],
-            title: t(`navigation.${group}`),
+            title: t(`globals.navigation.${group}`),
           }
 
           accumulator.push(parent)
@@ -126,34 +126,18 @@ provide('navigation', navigationFormatted)
 <i18n lang="json">
 {
    "en": {
-     "navigation": {
-       "mindset": "The Mindset"
-
-      },
       "search": "Search…"
    },
     "es": {
-        "navigation": {
-          "mindset": "La mentalidad"
-        },
         "search": "Buscar…"
     },
    "fr": {
-      "navigation": {
-        "mindset": "L'état d'esprit"
-      },
       "search": "Rechercher…"
    },
    "it": {
-      "navigation": {
-        "mindset": "La mentalità"
-      },
       "search": "Cerca…"
    },
    "ja": {
-      "navigation": {
-        "mindset": "考え方"
-      },
       "search": "検索…"
    }
 }

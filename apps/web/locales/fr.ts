@@ -1,3 +1,7 @@
 export default {
-  globals: {},
+  globals: {
+    navigation: {
+      mindset: 'L\'état d\'esprit',
+    },
+  },
 }
