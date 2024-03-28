@@ -6,6 +6,7 @@ const navigation = inject<NavItem[]>('navigation', [])
 
 // Composables
 const { socialLinks } = useAppConfig()
+const localePath = useLocalePath()
 
 // Computed
 const logo = computed(() => ({
@@ -16,20 +17,12 @@ const logo = computed(() => ({
 </script>
 
 <template>
-  <UHeader class="layout-header">
+  <UHeader
+    class="layout-header"
+    :to="localePath({ name: 'slug' })"
+  >
     <template #logo>
-      <template v-if="logo.dark || logo.light">
-        <UColorModeImage v-bind="{ class: 'h-8 w-auto', ...logo }" />
-      </template>
-
-      <template v-else>
-        The Tiny Hackers
-        <UBadge
-          class="mb-0.5"
-          label="Docs"
-          variant="subtle"
-        />
-      </template>
+      <UColorModeImage v-bind="{ class: 'h-8 w-auto', ...logo }" />
     </template>
 
     <template #right>
