@@ -27,12 +27,12 @@ function onChangeLocale(newLocale: typeof availableLocales[0]) {
     option-attribute="label"
     :options="availableLocales"
     :placeholder="t('chooseLanguage')"
-    :search-attributes="['name', 'nameAlts']"
-    searchable
-    :searchable-placeholder="t('searchLanguage')"
     size="lg"
     @change="onChangeLocale"
   >
+    <!-- :search-attributes="['name', 'nameAlts']"
+    searchable
+    :searchable-placeholder="t('searchLanguage')" -->
     <template #label>
       <UIcon
         class="mr-0.5 w-5"
