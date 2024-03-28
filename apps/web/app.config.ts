@@ -47,18 +47,18 @@ export default defineAppConfig({
       'target': '_blank',
       'to': 'https://www.instagram.com/thetinyhackers/',
     },
-    {
-      'aria-label': 'The Tiny Hackers on TikTok',
-      'icon': 'i-simple-icons-tiktok',
-      'target': '_blank',
-      'to': 'https://www.tiktok.com/@thetinyhackers',
-    },
-    {
-      'aria-label': 'The Tiny Hackers on X',
-      'icon': 'i-simple-icons-x',
-      'target': '_blank',
-      'to': 'https://x.com/thetinyhackers',
-    },
+    // {
+    //   'aria-label': 'The Tiny Hackers on TikTok',
+    //   'icon': 'i-simple-icons-tiktok',
+    //   'target': '_blank',
+    //   'to': 'https://www.tiktok.com/@thetinyhackers',
+    // },
+    // {
+    //   'aria-label': 'The Tiny Hackers on X',
+    //   'icon': 'i-simple-icons-x',
+    //   'target': '_blank',
+    //   'to': 'https://x.com/thetinyhackers',
+    // },
     {
       'aria-label': 'The Tiny Hackers on GitHub',
       'icon': 'i-simple-icons-github',

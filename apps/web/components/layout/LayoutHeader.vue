@@ -35,12 +35,13 @@ const logo = computed(() => ({
     <template #right>
       <UContentSearchButton :label="null" />
 
-      <UColorModeButton />
+      <UColorModeButton class="hidden sm:inline-flex" />
 
       <UButton
         v-for="(link, index) of socialLinks"
         :key="index"
         v-bind="{ color: 'gray', variant: 'ghost', ...link }"
+        class="hidden sm:inline-flex"
       />
     </template>
 
