@@ -1,57 +1,83 @@
 <script setup lang="ts">
 // Composables
-const { locale } = useI18n()
 const { availableLocales } = useAppConfig()
-const switchLocalePath = useSwitchLocalePath()
+const { locale } = useI18n()
+const { t } = useI18n()
 const router = useRouter()
-
-// State
-const localeLabels = {
-  en: 'English',
-  es: 'Español',
-  fr: 'Français',
-  ja: '日本語',
-}
+const switchLocalePath = useSwitchLocalePath()
 
 // Computed
-const flagIcon = computed(() => {
-  for (const availableLocale of availableLocales) {
-    if (availableLocale.code === locale.value)
-      return availableLocale.icon
-  }
+const currentLocale = computed(() => {
+  return availableLocales.find(item => item.code === locale.value)
 })
 
-const locales = computed(() => ([
-  availableLocales.map(locale => ({
-    click: () => changeLocale(locale.code),
-    icon: locale.icon,
-    id: locale,
-    label: localeLabels[locale.code],
-  })),
-]))
-
 // Helpers
-function changeLocale(newLocale: string) {
-  locale.value = newLocale
+function onChangeLocale(newLocale: typeof availableLocales[0]) {
+  locale.value = newLocale.code
 
-  router.push(switchLocalePath(newLocale))
+  router.push(switchLocalePath(newLocale.code))
 }
 </script>
 
 <template>
-  <UDropdown
+  <USelectMenu
     class="w-full"
-    :items="locales"
-    mode="hover"
-    :popper="{ placement: 'bottom-start' }"
+    clear-search-on-close
+    :model-value="locale"
+    option-attribute="label"
+    :options="availableLocales"
+    :placeholder="t('chooseLanguage')"
+    :search-attributes="['name', 'nameAlts']"
+    searchable
+    :searchable-placeholder="t('searchLanguage')"
+    size="lg"
+    @change="onChangeLocale"
   >
-    <UButton
-      block
-      color="white"
-      :icon="flagIcon"
-      :label="localeLabels[locale]"
-      size="lg"
-      trailing-icon="i-heroicons-chevron-down-20-solid"
-    />
-  </UDropdown>
+    <template #label>
+      <UIcon
+        class="mr-0.5 w-5"
+        :name="currentLocale.icon"
+      />
+
+      <span class="truncate">{{ currentLocale.name }}</span>
+    </template>
+
+    <template #option="{ option }">
+      <UIcon
+        class="mr-0.5 w-5"
+        :name="option.icon"
+      />
+
+      <span class="truncate">{{ option.name }}</span>
+    </template>
+  </USelectMenu>
 </template>
+
+<!-- --------------------------------------------------
+     I18N
+     -------------------------------------------------- -->
+
+<i18n lang="json">
+{
+  "en": {
+    "chooseLanguage": "Choose your language",
+    "searchLanguage": "Search a language"
+  },
+  "es": {
+    "chooseLanguage": "Elige tu idioma",
+    "searchLanguage": "Buscar un idioma"
+  },
+  "fr": {
+    "chooseLanguage": "Choisissez votre langue",
+    "searchLanguage": "Rechercher une langue"
+  },
+  "it": {
+    "chooseLanguage": "Scegli la tua lingua",
+    "searchLanguage": "Cerca una lingua"
+  },
+  "ja": {
+    "chooseLanguage": "言語を選択",
+    "searchLanguage": "言語を検索"
+  }
+}
+</i18n>

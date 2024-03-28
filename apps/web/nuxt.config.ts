@@ -91,6 +91,10 @@ export default defineNuxtConfig({
       file: 'fr.ts',
       iso: 'fr',
     }, {
+      code: 'it',
+      file: 'it.ts',
+      iso: 'it',
+    }, {
       code: 'ja',
       file: 'ja.ts',
       iso: 'ja',

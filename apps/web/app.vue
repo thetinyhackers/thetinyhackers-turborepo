@@ -144,6 +144,12 @@ provide('navigation', navigationFormatted)
       },
       "search": "Rechercher…"
    },
+   "it": {
+      "navigation": {
+        "mindset": "La mentalità"
+      },
+      "search": "Cerca…"
+   },
    "ja": {
       "navigation": {
         "mindset": "考え方"

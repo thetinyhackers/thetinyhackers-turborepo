@@ -110,6 +110,9 @@ useSeoMeta({
   "fr": {
     "editPage": "Modifier cette page"
   },
+  "it": {
+    "editPage": "Modifica questa pagina"
+  },
   "ja": {
     "editPage": "このページを編集する"
   }
