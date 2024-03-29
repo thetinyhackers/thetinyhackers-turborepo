@@ -5,7 +5,6 @@ export default defineSitemapEventHandler(async (event) => {
   const { availableLocales } = useAppConfig()
 
   const articles = await serverQueryContent(event)
-    .where({ navigation: { $ne: false } })
     .only(['_path'])
     .find()
 
