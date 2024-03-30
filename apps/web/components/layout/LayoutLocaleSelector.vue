@@ -63,17 +63,9 @@ function onChangeLocale(newLocale: typeof availableLocales[0]) {
     "chooseLanguage": "Choose your language",
     "searchLanguage": "Search a language"
   },
-  "es": {
-    "chooseLanguage": "Elige tu idioma",
-    "searchLanguage": "Buscar un idioma"
-  },
   "fr": {
     "chooseLanguage": "Choisissez votre langue",
     "searchLanguage": "Rechercher une langue"
-  },
-  "it": {
-    "chooseLanguage": "Scegli la tua lingua",
-    "searchLanguage": "Cerca una lingua"
   },
   "ja": {
     "chooseLanguage": "言語を選択",

@@ -104,14 +104,8 @@ useSeoMeta({
   "en": {
     "editPage": "Edit this page"
   },
-  "es": {
-    "editPage": "Editar esta página"
-  },
   "fr": {
     "editPage": "Modifier cette page"
-  },
-  "it": {
-    "editPage": "Modifica questa pagina"
   },
   "ja": {
     "editPage": "このページを編集する"

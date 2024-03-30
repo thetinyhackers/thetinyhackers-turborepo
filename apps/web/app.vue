@@ -128,14 +128,8 @@ provide('navigation', navigationFormatted)
    "en": {
       "search": "Search…"
    },
-    "es": {
-        "search": "Buscar…"
-    },
    "fr": {
       "search": "Rechercher…"
-   },
-   "it": {
-      "search": "Cerca…"
    },
    "ja": {
       "search": "検索…"
